@@ -44,7 +44,7 @@ async function loadJson<T>(
   fileName: string,
   fetcher: typeof fetch,
 ): Promise<T> {
-  const response = await fetcher(`/data/${fileName}`);
+  const response = await fetcher(`${import.meta.env.BASE_URL}data/${fileName}`);
 
   if (!response.ok) {
     throw new Error(`Missing required file: ${fileName}`);
