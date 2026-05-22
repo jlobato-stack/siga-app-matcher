@@ -74,11 +74,6 @@ async function createAdultAccount(
   await user.type(screen.getByLabelText(/^email$/i), email);
   await user.type(screen.getByLabelText(/preferred name/i), "Alex");
 
-  const agreeButtons = screen.getAllByRole("button", { name: /^i agree$/i });
-  for (const agreeButton of agreeButtons) {
-    await user.click(agreeButton);
-  }
-
   await user.click(screen.getByRole("button", { name: /^create account$/i }));
 }
 
@@ -235,7 +230,7 @@ describe("MatcherApp", () => {
       screen.getByRole("heading", { name: /how the matcher works/i }),
     ).toBeInTheDocument();
     expect(
-      screen.getByText(/the context score is capped at 10 points/i),
+      screen.getByText(/the app is designed to help clinicians, patients, health insurers, and health systems identify treatments that may be more likely to work for each patient/i),
     ).toBeInTheDocument();
     expect(
       screen.getByText(/the current tie threshold is 3 points/i),

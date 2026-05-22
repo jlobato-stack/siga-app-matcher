@@ -18,7 +18,7 @@ if command -v node >/dev/null 2>&1 && command -v npm >/dev/null 2>&1; then
     }
   fi
 
-  npm run dev &
+  node ./node_modules/vite/bin/vite.js &
   DEV_PID=$!
   sleep 5
   open "http://localhost:5173" >/dev/null 2>&1 || true

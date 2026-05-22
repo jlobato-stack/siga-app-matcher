@@ -83,3 +83,24 @@ Serving demo on port 4174.
 ::1 - - [22/May/2026 07:21:11] "GET /data/providers.json HTTP/1.1" 200 -
 ::1 - - [22/May/2026 07:21:11] "GET /data/treatment_duration_benchmarks.json HTTP/1.1" 200 -
 ::1 - - [22/May/2026 07:28:57] "GET / HTTP/1.1" 304 -
+Starting SIGA matcher...
+
+> depression-treatment-matching-mvp@0.1.0 dev
+> vite
+
+sh: /Users/joaolobato/siga/siga apps/siga matcher/node_modules/.bin/vite: Permission denied
+Starting SIGA matcher...
+14:17:26 [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.3.2  ready in 922 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+14:19:55 [vite] (client) hmr update /src/MatcherApp.tsx
+14:20:59 [vite] (client) hmr update /src/MatcherApp.tsx
+14:26:16 [vite] (client) hmr update /src/MatcherApp.tsx
+14:26:43 [vite] (client) hmr update /src/MatcherApp.tsx
+14:26:59 [vite] (client) hmr update /src/MatcherApp.tsx
+14:27:11 [vite] (client) hmr update /src/MatcherApp.tsx
+14:27:24 [vite] (client) hmr update /src/MatcherApp.tsx
+14:28:39 [vite] (client) hmr update /src/MatcherApp.tsx

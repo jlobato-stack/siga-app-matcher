@@ -1163,20 +1163,12 @@ function AboutView({
   appData: AppData;
   onBack: () => void;
 }) {
-  const questionTopics = QUESTION_DEFINITIONS.map((question) =>
-    question.title.replace(/^Q\d+\.\s*/, "").trim(),
-  );
-  const treatmentFamilies = Object.values(appData.displayGroupMetadata).map(
-    (entry) => `${entry.displayName}: ${entry.description}`,
-  );
-  const benchmarkExample = appData.treatmentDurationBenchmarks[0];
-
   return (
     <main className="app-shell">
       <section className="frame-card about-card">
         <header className="question-header legal-header">
           <div>
-            <p className="eyebrow">About this app</p>
+            <p className="eyebrow">ABOUT THIS APP</p>
             <h1>How the matcher works</h1>
             <p className="hero-copy">
               This page explains the method at a high level using the current
@@ -1206,23 +1198,68 @@ function AboutView({
               treatment families stored in the app. It then ranks the families
               that fit best and explains the match in plain English.
             </p>
-            <p>
-              The app currently groups treatments into these families:
-            </p>
+            <p>The app currently groups treatments into these families:</p>
             <ul>
-              {treatmentFamilies.map((family) => (
-                <li key={family}>{family}</li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="legal-section">
-            <h2>What information it uses</h2>
-            <p>The current question set asks about:</p>
-            <ul>
-              {questionTopics.map((topic) => (
-                <li key={topic}>{topic}</li>
-              ))}
+              <li>
+                Cognitive Behavioral Therapy (CBT): A structured treatment
+                focused on patterns of thought, emotion, and behavior.
+              </li>
+              <li>
+                Health-Tailored CBT: CBT adapted for people managing depression
+                alongside a long-term physical health condition.
+              </li>
+              <li>
+                Behavioral Activation: A practical treatment focused on
+                rebuilding routines, activity, and contact with rewarding
+                experiences.
+              </li>
+              <li>
+                Interpersonal Therapy (IPT): A treatment focused on
+                relationships, role changes, conflict, grief, and loneliness.
+              </li>
+              <li>
+                Mindfulness-Based / Relapse-Focused Therapy: A relapse-focused
+                approach that helps people notice mood patterns and respond
+                differently to them.
+              </li>
+              <li>
+                Problem-Solving Therapy: A structured treatment focused on
+                breaking problems into manageable steps and decisions.
+              </li>
+              <li>
+                Supportive Therapy: A lower-intensity supportive approach
+                focused on validation, guidance, and coping.
+              </li>
+              <li>
+                Life Review Therapy: A reflective treatment often used with
+                older adults to integrate memories, identity, and meaning.
+              </li>
+              <li>
+                Psychodynamic Therapy: A treatment focused on recurring
+                emotional patterns, relationships, and internal conflicts.
+              </li>
+              <li>
+                Acceptance and Commitment Therapy (ACT): A therapy that combines
+                values-based action with acceptance and psychological
+                flexibility skills.
+              </li>
+              <li>
+                Other Third-Wave Cognitive Therapies: Related skills-based
+                cognitive therapies beyond CBT and ACT.
+              </li>
+              <li>
+                Combined / Multi-Component Interventions: Programs that combine
+                several psychological elements rather than one single treatment
+                model.
+              </li>
+              <li>
+                Psychoeducational or Guided Self-Help Variants: Lower-intensity
+                structured materials or guided self-help based approaches.
+              </li>
+              <li>
+                Other Psychological Treatments: Other psychological
+                interventions that do not fit a single main display group.
+              </li>
             </ul>
           </section>
 
@@ -1233,18 +1270,15 @@ function AboutView({
               score from the current scoring table.
             </p>
             <p>
-              It then adds subgroup match points based on age group,
-              perinatal stage, source group, long-term physical health
-              condition, diagnosis status, and course over time.
+              It then adds subgroup match points based on age group, perinatal
+              stage, source group, long-term physical health condition,
+              diagnosis status, and course over time.
             </p>
             <p>
               It also adds context points from the current help-style answer and
               the answer about what the depression seems most tied to.
             </p>
-            <p>
-              The context score is capped at {appData.scoringConfig.contextCap}{" "}
-              points in the current config.
-            </p>
+            <p>The context score is capped at 10 points in the current config.</p>
             <p>
               Finally, the app subtracts the fragility penalty stored for that
               treatment family.
@@ -1255,24 +1289,8 @@ function AboutView({
             </p>
             <p>
               If the top scores are very close, the app can show more than one
-              leading result. The current tie threshold is{" "}
-              {appData.scoringConfig.tieThreshold} points.
+              leading result. The current tie threshold is 3 points.
             </p>
-          </section>
-
-          <section className="legal-section">
-            <h2>How the explanation bullets are chosen</h2>
-            <p>
-              The current explanation templates are triggered when the profile
-              matches specific patterns already stored in the app:
-            </p>
-            <ul>
-              {Object.values(appData.explanationTemplates.explanations).map(
-                (template) => (
-                  <li key={template}>{template}</li>
-                ),
-              )}
-            </ul>
           </section>
 
           <section className="legal-section">
@@ -1287,66 +1305,40 @@ function AboutView({
               are:
             </p>
             <ul>
-              <li>
-                Unconfirmed diagnosis:{" "}
-                {appData.scoringConfig.diagnosticPenalties.unconfirmed}
-              </li>
-              <li>
-                Unknown diagnosis:{" "}
-                {appData.scoringConfig.diagnosticPenalties.unknown}
-              </li>
-              <li>
-                High suicidal ideation:{" "}
-                {appData.scoringConfig.cautionPenalties.high_suicidal_ideation}
-              </li>
-              <li>
-                Possible mania:{" "}
-                {appData.scoringConfig.cautionPenalties.possible_mania}
-              </li>
-              <li>
-                Possible psychosis:{" "}
-                {appData.scoringConfig.cautionPenalties.possible_psychosis}
-              </li>
-              <li>
-                Missing-answer penalty:{" "}
-                {appData.scoringConfig.missingDataPenalty.penaltyPerUnknown} per
-                unknown answer, capped at{" "}
-                {appData.scoringConfig.missingDataPenalty.maxMissingPenalty}
-              </li>
+              <li>Unconfirmed diagnosis: 10</li>
+              <li>Unknown diagnosis: 7</li>
+              <li>High suicidal ideation: 14</li>
+              <li>Possible mania: 8</li>
+              <li>Possible psychosis: 10</li>
+              <li>Missing-answer penalty: 3 per unknown answer, capped at 15</li>
             </ul>
-            <p>
-              The current confidence bands stored in the app are:
-            </p>
+            <p>The current confidence bands stored in the app are:</p>
             <ul>
-              {appData.scoringConfig.confidenceBands.map((band) => (
-                <li key={band.label}>
-                  {band.label}: {band.min} and above
-                </li>
-              ))}
+              <li>high: 75 and above</li>
+              <li>moderate: 55 and above</li>
+              <li>low: 0 and above</li>
             </ul>
             <p>
-              The current results page hides the confidence number, but the
-              confidence system still exists in the method.
+              The current results page hides the confidence number to avoid
+              confusion (for example, a 90% match may mislead into believing
+              they have 90% of chances of recovering), but the confidence system
+              still exists in the method.
             </p>
           </section>
 
           <section className="legal-section">
-            <h2>How the time planning page works</h2>
+            <h2>How the time planning page works (under work)</h2>
             <p>
               The budget page uses the stored treatment benchmark table. Each
               row includes a therapy type, target clinical duration, hours per
               week, total estimated hours, an established clinical benchmark, a
               reference, a decision field, and a rationale field.
             </p>
-            {benchmarkExample ? (
-              <p>
-                Example from the current table: {benchmarkExample.therapyType}{" "}
-                has a target duration of{" "}
-                {benchmarkExample.targetClinicalDurationWeeks},{" "}
-                {benchmarkExample.hoursPerWeek} per week, and{" "}
-                {benchmarkExample.totalEstimatedHours} total estimated hours.
-              </p>
-            ) : null}
+            <p>
+              Example from the current table: Acceptance and commitment therapy
+              has a target duration of 8 to 12 weeks, 1 hour per week, and 8 to
+              12 hrs total estimated hours.
+            </p>
           </section>
 
           <section className="legal-section">
@@ -1366,6 +1358,7 @@ function AboutView({
 
 function SignInView({
   appTitle,
+  blockedEmails,
   legalDocuments,
   legalAgreements,
   onAgreeToLegalDocument,
@@ -1376,6 +1369,7 @@ function SignInView({
   onSignUp,
 }: {
   appTitle: string;
+  blockedEmails: Record<string, string>;
   legalDocuments: LegalDocument[];
   legalAgreements: Record<string, string>;
   onAgreeToLegalDocument: (document: LegalDocument) => void;
@@ -1905,9 +1899,7 @@ export function MatcherApp({
   const [blockedEmails, setBlockedEmails] = useState<Record<string, string>>(
     () => loadBlockedEmails(storage),
   );
-  const [legalAgreements, setLegalAgreements] = useState<Record<string, string>>(
-    () => loadLegalAgreements(storage),
-  );
+  const [legalAgreements, setLegalAgreements] = useState<Record<string, string>>({});
   const [returnScreenAfterAbout, setReturnScreenAfterAbout] =
     useState<Screen>("home");
   const [returnScreenAfterLegal, setReturnScreenAfterLegal] =
@@ -1944,6 +1936,15 @@ export function MatcherApp({
   }, [visibleQuestions.length]);
 
   useEffect(() => {
+    if (!authProfile) {
+      setLegalAgreements({});
+      return;
+    }
+
+    setLegalAgreements(localAccounts[authProfile.email]?.legalAgreements ?? {});
+  }, [authProfile, localAccounts]);
+
+  useEffect(() => {
     if (typeof window === "undefined") {
       return;
     }
@@ -1978,7 +1979,22 @@ export function MatcherApp({
         nextAgreements[document.id] = document.lastUpdated;
       }
 
-      saveLegalAgreements(storage, nextAgreements);
+      if (authProfile) {
+        const currentAccount = localAccounts[authProfile.email];
+        if (currentAccount) {
+          const nextAccounts = {
+            ...localAccounts,
+            [authProfile.email]: {
+              ...currentAccount,
+              legalAgreements: nextAgreements,
+            },
+          };
+
+          saveLocalAccounts(storage, nextAccounts);
+          setLocalAccounts(nextAccounts);
+        }
+      }
+
       return nextAgreements;
     });
   }
@@ -1998,7 +2014,7 @@ export function MatcherApp({
           email: normalizedEmail,
           preferredName: normalizedName,
           age: 35,
-          legalAgreements: { ...legalAgreements },
+          legalAgreements: {},
           createdAt: new Date().toISOString(),
         };
 
@@ -2009,6 +2025,7 @@ export function MatcherApp({
 
     saveLocalAccounts(storage, nextAccounts);
     setLocalAccounts(nextAccounts);
+    setLegalAgreements(nextAccount.legalAgreements);
 
     const nextAuthProfile: AuthProfile = {
       email: nextAccount.email,
@@ -2021,6 +2038,7 @@ export function MatcherApp({
 
     saveAuthProfile(storage, nextAuthProfile);
     setAuthProfile(nextAuthProfile);
+    setScreen("home");
     replacePath(HOME_PATH);
     void trackUsageEvent("sign_in_completed", {
       userEmail: nextAuthProfile.email,
@@ -2052,7 +2070,7 @@ export function MatcherApp({
       email: normalizedEmail,
       preferredName,
       age: 35,
-      legalAgreements: { ...legalAgreements },
+      legalAgreements: {},
       createdAt: new Date().toISOString(),
     };
 
@@ -2063,6 +2081,7 @@ export function MatcherApp({
 
     saveLocalAccounts(storage, nextAccounts);
     setLocalAccounts(nextAccounts);
+    setLegalAgreements(nextAccount.legalAgreements);
 
     const nextAuthProfile: AuthProfile = {
       email: nextAccount.email,
@@ -2075,6 +2094,7 @@ export function MatcherApp({
 
     saveAuthProfile(storage, nextAuthProfile);
     setAuthProfile(nextAuthProfile);
+    setScreen("home");
     replacePath(HOME_PATH);
     void trackUsageEvent("sign_up_completed", {
       userEmail: nextAuthProfile.email,
@@ -2101,7 +2121,6 @@ export function MatcherApp({
   function handleResetDemoData() {
     clearAuthProfile(storage);
     clearBlockedEmails(storage);
-    saveLegalAgreements(storage, {});
     if (storage) {
       clearDraft(storage);
       storage.removeItem(LOCAL_ACCOUNTS_STORAGE_KEY);
@@ -2133,7 +2152,7 @@ export function MatcherApp({
       email: DEMO_ACCOUNT_EMAIL,
       preferredName: DEMO_ACCOUNT_NAME,
       age: 35,
-      legalAgreements: nextAgreements,
+      legalAgreements: {},
       createdAt: new Date().toISOString(),
     };
 
@@ -2142,9 +2161,8 @@ export function MatcherApp({
       [DEMO_ACCOUNT_EMAIL]: nextAccount,
     };
 
-    saveLegalAgreements(storage, nextAgreements);
     saveLocalAccounts(storage, nextAccounts);
-    setLegalAgreements(nextAgreements);
+    setLegalAgreements(nextAccount.legalAgreements);
     setLocalAccounts(nextAccounts);
 
     const nextAuthProfile: AuthProfile = {
@@ -2158,6 +2176,7 @@ export function MatcherApp({
 
     saveAuthProfile(storage, nextAuthProfile);
     setAuthProfile(nextAuthProfile);
+    setScreen("home");
     replacePath(HOME_PATH);
     setSavedNotice("Demo account loaded for this device.");
     void trackUsageEvent("sign_in_completed", {
@@ -2428,8 +2447,9 @@ export function MatcherApp({
 
   if (!authProfile && screen !== "legal" && screen !== "about") {
     return (
-        <SignInView
+      <SignInView
         appTitle={appData.appCopy.appTitle}
+        blockedEmails={blockedEmails}
         legalDocuments={appData.legalDocumentsUk}
         legalAgreements={legalAgreements}
         onAgreeToLegalDocument={handleAgreeToLegalDocument}
@@ -2457,29 +2477,6 @@ export function MatcherApp({
           {savedNotice ? (
             <div className="info-banner" role="status">
               {savedNotice}
-            </div>
-          ) : null}
-          {authProfile ? (
-            <div className="signed-in-panel">
-              <span>
-                Signed in as {authProfile.preferredName} ({authProfile.email})
-              </span>
-              <div className="signed-in-actions">
-                <button
-                  type="button"
-                  className="legal-link-button"
-                  onClick={handleSignOut}
-                >
-                  Sign out
-                </button>
-                <button
-                  type="button"
-                  className="legal-link-button"
-                  onClick={handleResetDemoData}
-                >
-                  Reset demo data
-                </button>
-              </div>
             </div>
           ) : null}
           <div className="hero-actions hero-actions-siga">
@@ -2520,14 +2517,30 @@ export function MatcherApp({
             >
               About
             </button>
-            <button
-              type="button"
-              className="legal-link-button"
-              onClick={handleResetDemoData}
-            >
-              Reset demo data
-            </button>
           </div>
+          {authProfile ? (
+            <div className="signed-in-panel">
+              <span>
+                Signed in as {authProfile.preferredName} ({authProfile.email})
+              </span>
+              <div className="signed-in-actions">
+                <button
+                  type="button"
+                  className="legal-link-button"
+                  onClick={handleSignOut}
+                >
+                  Sign out
+                </button>
+                <button
+                  type="button"
+                  className="legal-link-button"
+                  onClick={handleResetDemoData}
+                >
+                  Reset demo data
+                </button>
+              </div>
+            </div>
+          ) : null}
         </section>
       </main>
     );
