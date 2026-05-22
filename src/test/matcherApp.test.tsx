@@ -55,12 +55,15 @@ async function startQuestionnaire(user: ReturnType<typeof userEvent.setup>) {
     await createAdultAccount(user);
   }
 
-  const agreeButtons = screen.queryAllByRole("button", { name: /^i agree$/i });
+  const agreeButtons = screen.queryAllByRole("button", {
+    name: /^agree to /i,
+  });
   for (const agreeButton of agreeButtons) {
     await user.click(agreeButton);
   }
 
   await user.click(screen.getByRole("button", { name: /start now/i }));
+  await screen.findByText(QUESTION_DEFINITIONS[0].title);
 }
 
 async function createAdultAccount(
@@ -141,6 +144,13 @@ describe("MatcherApp", () => {
     await createAdultAccount(user, "verified@example.com");
 
     expect(screen.getByText(/signed in as alex/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /start now/i })).toBeDisabled();
+
+    const agreeButtons = screen.getAllByRole("button", { name: /^agree to /i });
+    for (const agreeButton of agreeButtons) {
+      await user.click(agreeButton);
+    }
+
     expect(screen.getByRole("button", { name: /start now/i })).toBeEnabled();
   });
 
@@ -179,7 +189,7 @@ describe("MatcherApp", () => {
     await user.click(screen.getByRole("button", { name: /^open demo account$/i }));
 
     expect(screen.getByText(/signed in as investor demo/i)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /start now/i })).toBeEnabled();
+    expect(screen.getByRole("button", { name: /start now/i })).toBeDisabled();
   });
 
   test("opens the sign-up form directly from the sign-up route", () => {
@@ -206,7 +216,7 @@ describe("MatcherApp", () => {
     await user.click(screen.getByRole("button", { name: /^continue$/i }));
 
     expect(screen.getByText(/signed in as alex/i)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /start now/i })).toBeEnabled();
+    expect(screen.getByRole("button", { name: /start now/i })).toBeDisabled();
   });
 
   test("signs up directly and lands on the home screen", async () => {
@@ -248,16 +258,14 @@ describe("MatcherApp", () => {
 
     await user.click(screen.getByRole("button", { name: /^create account$/i }));
 
-    expect(
-      screen.getByText(/agree to the privacy policy, terms of service, and disclaimer before signing up/i),
-    ).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /start now/i })).toBeDisabled();
 
-    const agreeButtons = screen.getAllByRole("button", { name: /^i agree$/i });
+    const agreeButtons = screen.getAllByRole("button", { name: /^agree to /i });
     for (const agreeButton of agreeButtons) {
       await user.click(agreeButton);
     }
 
-    await user.click(screen.getByRole("button", { name: /^create account$/i }));
+    expect(screen.getByRole("button", { name: /start now/i })).toBeEnabled();
 
     expect(screen.getByRole("button", { name: /start now/i })).toBeEnabled();
 
