@@ -1,0 +1,42 @@
+{
+  "q1_diagnosed_depression": ["yes", "no", "not_sure", "prefer_not"],
+  "q2_suicidal_ideation": [0, 1, 2, 3],
+  "q3_suicidal_intent_now": ["no", "unsure", "yes"],
+  "q4_mania_screen": ["no", "maybe", "yes"],
+  "q5_psychosis_screen": ["no", "maybe", "yes"],
+  "q6_age_group": ["18_24", "25_54", "55_74", "75_plus", "unknown"],
+  "q7_perinatal_stage": ["pregnant", "postpartum", "none", "unknown"],
+  "q8_source_group": ["student", "medical_comorbidity", "general", "both", "unknown"],
+  "q9_medical_condition": [
+    "diabetes",
+    "chronic_pain",
+    "cardiovascular",
+    "cancer",
+    "hiv",
+    "other_medical",
+    "none",
+    "unknown"
+  ],
+  "q10_diagnosis_type": [
+    "major_depression",
+    "persistent_chronic",
+    "depressive_symptoms_only",
+    "not_sure",
+    "prefer_not"
+  ],
+  "q11_course": ["first_episode", "recurrent", "chronic_hard_to_recover", "unknown"],
+  "q12_help_style": [
+    "skills_based",
+    "activation",
+    "relationship_focused",
+    "health_condition_coping",
+    "not_sure"
+  ],
+  "q13_linked_to": [
+    "thoughts_reactions",
+    "low_motivation_inactivity",
+    "relationships_loneliness",
+    "physical_health",
+    "not_sure"
+  ]
+}

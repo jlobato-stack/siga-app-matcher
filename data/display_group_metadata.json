@@ -1,0 +1,72 @@
+{
+  "cbt": {
+    "displayName": "Cognitive Behavioral Therapy (CBT)",
+    "description": "A structured treatment focused on patterns of thought, emotion, and behavior.",
+    "shortSummary": "Structured skills for changing unhelpful thinking and behavior."
+  },
+  "cbt_health_tailored": {
+    "displayName": "Health-Tailored CBT",
+    "description": "CBT adapted for people managing depression alongside a long-term physical health condition.",
+    "shortSummary": "CBT adapted for depression linked to ongoing physical health conditions."
+  },
+  "behavioral_activation": {
+    "displayName": "Behavioral Activation",
+    "description": "A practical treatment focused on rebuilding routines, activity, and contact with rewarding experiences.",
+    "shortSummary": "A practical approach focused on getting active again."
+  },
+  "ipt": {
+    "displayName": "Interpersonal Therapy (IPT)",
+    "description": "A treatment focused on relationships, role changes, conflict, grief, and loneliness.",
+    "shortSummary": "A relationship-focused treatment for mood and role stress."
+  },
+  "mindfulness_relapse_focused": {
+    "displayName": "Mindfulness-Based / Relapse-Focused Therapy",
+    "description": "A relapse-focused approach that helps people notice mood patterns and respond differently to them.",
+    "shortSummary": "Mindfulness-oriented support for recurrent or relapse-prone depression."
+  },
+  "problem_solving": {
+    "displayName": "Problem-Solving Therapy",
+    "description": "A structured treatment focused on breaking problems into manageable steps and decisions.",
+    "shortSummary": "A practical treatment centered on structured problem-solving."
+  },
+  "supportive_therapy": {
+    "displayName": "Supportive Therapy",
+    "description": "A lower-intensity supportive approach focused on validation, guidance, and coping.",
+    "shortSummary": "Supportive care centered on coping, stabilization, and encouragement."
+  },
+  "life_review": {
+    "displayName": "Life Review Therapy",
+    "description": "A reflective treatment often used with older adults to integrate memories, identity, and meaning.",
+    "shortSummary": "A reflective therapy often used in later life."
+  },
+  "psychodynamic": {
+    "displayName": "Psychodynamic Therapy",
+    "description": "A treatment focused on recurring emotional patterns, relationships, and internal conflicts.",
+    "shortSummary": "Explores recurring emotional and relationship patterns."
+  },
+  "act": {
+    "displayName": "Acceptance and Commitment Therapy (ACT)",
+    "description": "A therapy that combines values-based action with acceptance and psychological flexibility skills.",
+    "shortSummary": "Values-based coping and flexibility skills."
+  },
+  "other_third_wave": {
+    "displayName": "Other Third-Wave Cognitive Therapies",
+    "description": "Related skills-based cognitive therapies beyond CBT and ACT.",
+    "shortSummary": "Related third-wave cognitive approaches."
+  },
+  "combined_multi_component": {
+    "displayName": "Combined / Multi-Component Interventions",
+    "description": "Programs that combine several psychological elements rather than one single treatment model.",
+    "shortSummary": "Multi-part interventions that blend several treatment components."
+  },
+  "psychoeducational_guided_self_help": {
+    "displayName": "Psychoeducational or Guided Self-Help Variants",
+    "description": "Lower-intensity structured materials or guided self-help based approaches.",
+    "shortSummary": "Structured self-help or psychoeducation with guided support."
+  },
+  "other_psychological": {
+    "displayName": "Other Psychological Treatments",
+    "description": "Other psychological interventions that do not fit a single main display group.",
+    "shortSummary": "Other recognized psychological treatment approaches."
+  }
+}

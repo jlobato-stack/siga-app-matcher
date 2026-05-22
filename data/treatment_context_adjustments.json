@@ -1,0 +1,82 @@
+{
+  "cbt": {
+    "contextCap": 10,
+    "helpStyleWeight": { "skills_based": 5, "activation": 1 },
+    "linkedToWeight": { "thoughts_reactions": 5, "low_motivation_inactivity": 2 }
+  },
+  "cbt_health_tailored": {
+    "contextCap": 10,
+    "helpStyleWeight": { "health_condition_coping": 5, "skills_based": 2 },
+    "linkedToWeight": { "physical_health": 5, "thoughts_reactions": 1 }
+  },
+  "behavioral_activation": {
+    "contextCap": 12,
+    "helpStyleWeight": { "activation": 6 },
+    "linkedToWeight": { "low_motivation_inactivity": 6 }
+  },
+  "ipt": {
+    "contextCap": 10,
+    "helpStyleWeight": { "relationship_focused": 6 },
+    "linkedToWeight": { "relationships_loneliness": 6 }
+  },
+  "mindfulness_relapse_focused": {
+    "contextCap": 6,
+    "helpStyleWeight": { "skills_based": 1 },
+    "linkedToWeight": { "thoughts_reactions": 3 }
+  },
+  "problem_solving": {
+    "contextCap": 8,
+    "helpStyleWeight": { "skills_based": 4, "health_condition_coping": 2 },
+    "linkedToWeight": { "thoughts_reactions": 2, "physical_health": 2 }
+  },
+  "supportive_therapy": {
+    "contextCap": 6,
+    "helpStyleWeight": { "relationship_focused": 2, "not_sure": 1 },
+    "linkedToWeight": { "relationships_loneliness": 2, "not_sure": 1 }
+  },
+  "life_review": {
+    "contextCap": 4,
+    "helpStyleWeight": { "relationship_focused": 1 },
+    "linkedToWeight": { "relationships_loneliness": 1 }
+  },
+  "psychodynamic": {
+    "contextCap": 8,
+    "helpStyleWeight": { "relationship_focused": 4 },
+    "linkedToWeight": { "relationships_loneliness": 4, "thoughts_reactions": 2 }
+  },
+  "act": {
+    "contextCap": 9,
+    "helpStyleWeight": { "skills_based": 2, "health_condition_coping": 4 },
+    "linkedToWeight": { "physical_health": 4, "thoughts_reactions": 3 }
+  },
+  "other_third_wave": {
+    "contextCap": 8,
+    "helpStyleWeight": { "skills_based": 3, "activation": 2 },
+    "linkedToWeight": { "thoughts_reactions": 4, "low_motivation_inactivity": 1 }
+  },
+  "combined_multi_component": {
+    "contextCap": 8,
+    "helpStyleWeight": {
+      "skills_based": 2,
+      "activation": 2,
+      "relationship_focused": 2,
+      "health_condition_coping": 2
+    },
+    "linkedToWeight": {
+      "thoughts_reactions": 2,
+      "low_motivation_inactivity": 2,
+      "relationships_loneliness": 2,
+      "physical_health": 2
+    }
+  },
+  "psychoeducational_guided_self_help": {
+    "contextCap": 8,
+    "helpStyleWeight": { "skills_based": 4, "activation": 2 },
+    "linkedToWeight": { "thoughts_reactions": 3, "low_motivation_inactivity": 2 }
+  },
+  "other_psychological": {
+    "contextCap": 4,
+    "helpStyleWeight": { "relationship_focused": 1, "not_sure": 1 },
+    "linkedToWeight": { "relationships_loneliness": 1, "not_sure": 1 }
+  }
+}

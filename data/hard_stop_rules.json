@@ -1,0 +1,37 @@
+{
+  "pageTitle": "Contact a specialist now.",
+  "hardStops": [
+    {
+      "id": "current_suicidal_intent",
+      "questionId": "q3_suicidal_intent_now",
+      "operator": "eq",
+      "value": "yes"
+    },
+    {
+      "id": "psychosis_positive_screen",
+      "questionId": "q5_psychosis_screen",
+      "operator": "eq",
+      "value": "yes"
+    }
+  ],
+  "cautionFlags": [
+    {
+      "id": "high_suicidal_ideation",
+      "questionId": "q2_suicidal_ideation",
+      "operator": "gte",
+      "value": 2
+    },
+    {
+      "id": "possible_mania",
+      "questionId": "q4_mania_screen",
+      "operator": "eq",
+      "value": "maybe"
+    },
+    {
+      "id": "possible_psychosis",
+      "questionId": "q5_psychosis_screen",
+      "operator": "eq",
+      "value": "maybe"
+    }
+  ]
+}

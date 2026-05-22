@@ -1,0 +1,502 @@
+[
+  {
+    "therapyType": "Acceptance and commitment therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction by week 8.",
+    "referenceGuidelinesAndManuals": "Hayes, Strosahl, & Wilson (1999). ACT Treatment Manual; APA Division 12.",
+    "decision": "Guideline/manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Manual and guideline sources provide the clearest target course length for ACT. The benchmark range is preferred over narrower trial-specific endpoints because it is more generalizable and more conservative for planning."
+  },
+  {
+    "therapyType": "Acupuncture and counselling",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 to 1.5 hrs",
+    "totalEstimatedHours": "8 to 18 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% symptom reduction.",
+    "referenceGuidelinesAndManuals": "Cochrane-style review benchmark cited in comparison sheet (Smith et al. 2018); NICE depression guidance.",
+    "decision": "Guideline/review benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Short primary-care trials exist, but the broader review-based range is more reliable for a planning table and more conservative than a single short-course estimate."
+  },
+  {
+    "therapyType": "Alleviating distressing intrusive memories",
+    "targetClinicalDurationWeeks": "1 to 4 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "1 to 4 hrs",
+    "establishedClinicalBenchmark": "Symptom-specific change in intrusion frequency or distress.",
+    "referenceGuidelinesAndManuals": "Iyadurai et al. (2017) Molecular Psychiatry and related brief imagery-interference protocols.",
+    "decision": "Best-available external benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "There is no stable standardized depression-course benchmark for this intervention. A very brief external protocol range is more defensible than inventing a longer duration from sparse trial rows."
+  },
+  {
+    "therapyType": "Antenatal cognitive behavioral therapy",
+    "targetClinicalDurationWeeks": "6 to 8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "6 to 8 hrs",
+    "establishedClinicalBenchmark": "Remission target: EPDS < 10 prior to delivery.",
+    "referenceGuidelinesAndManuals": "NICE CG192 / antenatal and postnatal mental health guidance.",
+    "decision": "Guideline benchmark chosen over single-study endpoint",
+    "finalRationaleAndCalculationEvidence": "The NICE-style antenatal benchmark is more reliable than any one trial endpoint. It reflects target clinical duration, whereas some study rows reflect outcome assessment timing."
+  },
+  {
+    "therapyType": "Behavioral activation",
+    "targetClinicalDurationWeeks": "10 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "10 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 or BDI <= 8.",
+    "referenceGuidelinesAndManuals": "Martell, Addis, & Jacobson (2001). Depression in Context: Strategies for Guided Action.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Behavioral activation manuals and guideline summaries provide a clearer planning duration than pooled study endpoints. The longer 10 to 16 week range is also the more conservative assumption."
+  },
+  {
+    "therapyType": "Behavioral activation therapy",
+    "targetClinicalDurationWeeks": "10 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "10 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 or BDI <= 8.",
+    "referenceGuidelinesAndManuals": "Richards et al. (2016) COBRA / BA protocol family; BA manuals.",
+    "decision": "Manual benchmark chosen over digital BA endpoint",
+    "finalRationaleAndCalculationEvidence": "Direct BAT should not inherit the shorter hours from a low-intensity digital BA program. The manualized BAT range is the more appropriate and conservative planning figure."
+  },
+  {
+    "therapyType": "Behavioral treatment",
+    "targetClinicalDurationWeeks": "10 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "10 to 16 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "APA Clinical Practice Guideline for the Treatment of Depression (2019).",
+    "decision": "Guideline benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "This category is too broad for a single-study estimate to be trustworthy. APA-style benchmark timing is more reliable and conservative."
+  },
+  {
+    "therapyType": "Bibliotherapy",
+    "targetClinicalDurationWeeks": "4 to 8 weeks",
+    "hoursPerWeek": "1 to 2 hrs",
+    "totalEstimatedHours": "4 to 16 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% reduction in PHQ-9 or equivalent.",
+    "referenceGuidelinesAndManuals": "NICE depression in adults step-2 / guided self-help benchmark.",
+    "decision": "Guideline benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "A single old study can underestimate the practical dose of bibliotherapy. The step-care benchmark gives a more generalizable and conservative duration and time commitment."
+  },
+  {
+    "therapyType": "Brief culturally adapted cbt",
+    "targetClinicalDurationWeeks": "6 to 8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "6 to 8 hrs",
+    "establishedClinicalBenchmark": "Remission: sub-clinical threshold.",
+    "referenceGuidelinesAndManuals": "WHO mhGAP Intervention Guide; Rathod et al. (2015).",
+    "decision": "Guideline/manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Culturally adapted CBT is still brief CBT. The external benchmark is more reliable than treating one study duration as universal."
+  },
+  {
+    "therapyType": "Cognitive behavior therapy",
+    "targetClinicalDurationWeeks": "12 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "12 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: PHQ-9 < 5 or HAM-D <= 7.",
+    "referenceGuidelinesAndManuals": "Beck, Rush, Shaw, & Emery (1979); APA Clinical Practice Guideline.",
+    "decision": "Guideline/manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The pooled study row is highly heterogeneous. Standard CBT manuals and guidelines provide the most defensible planning range, and it is more conservative than short web-based or workshop rows."
+  },
+  {
+    "therapyType": "Cognitive therapy",
+    "targetClinicalDurationWeeks": "12 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "12 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: PHQ-9 < 5 or HAM-D <= 7.",
+    "referenceGuidelinesAndManuals": "Beck et al. (1979); APA Clinical Practice Guideline.",
+    "decision": "Guideline/manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Cognitive therapy is best treated as a full-course weekly therapy in planning terms. The manual benchmark is more reliable than a shorter pooled estimate."
+  },
+  {
+    "therapyType": "Compassion-based intervention",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 to 1.5 hrs",
+    "totalEstimatedHours": "8 to 18 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Gilbert (2009). The Compassionate Mind / compassion-focused therapy manual tradition.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Single-study estimates exist, but the manual-based group range better reflects usual delivery and is more conservative on total time."
+  },
+  {
+    "therapyType": "Comprehensive self-control training",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1.5 to 2 hrs",
+    "totalEstimatedHours": "12 to 24 hrs",
+    "establishedClinicalBenchmark": "Remission target: BDI <= 8 by week 12.",
+    "referenceGuidelinesAndManuals": "Rehm (1977). Self-Control Model of Depression.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Because the evidence base is sparse and often group-based, the longer manual-style benchmark is more reliable than a single trial row."
+  },
+  {
+    "therapyType": "Computer-assisted cognitive therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Andrews et al. (2010) cCBT meta-analytic benchmark.",
+    "decision": "Guideline/review benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Computer-assisted cognitive therapy is best planned like a structured CBT course with digital support. The benchmark range is more generalizable than one older trial."
+  },
+  {
+    "therapyType": "Coping effectiveness training",
+    "targetClinicalDurationWeeks": "10 weeks",
+    "hoursPerWeek": "1.5 hours",
+    "totalEstimatedHours": "15 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Folkman et al. (1991). Coping Effectiveness Training Manual.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The manual gives the clearest fixed course length. This is preferable to sparse depression-specific study rows."
+  },
+  {
+    "therapyType": "Counselling",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Response usually assessed around week 8.",
+    "referenceGuidelinesAndManuals": "Bower et al. (2011) review benchmark; NICE depression guidance.",
+    "decision": "Review/guideline benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Counselling duration varies, so the broad review-based range is more reliable and more conservative than a single weighted row."
+  },
+  {
+    "therapyType": "Digital behavioral activation intervention",
+    "targetClinicalDurationWeeks": "6 to 10 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "3 to 10 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "Karyotaki et al. (2017) digital depression treatment benchmark; digital BA trial families.",
+    "decision": "External benchmark chosen over follow-up endpoint",
+    "finalRationaleAndCalculationEvidence": "The 12-week study figure reflects an outcome endpoint after a 6-week program. Because the requested column is target clinical duration, the external 6 to 10 week program range is the better and more conservative planning value."
+  },
+  {
+    "therapyType": "Gestalt therapy",
+    "targetClinicalDurationWeeks": "16 to 24+ weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "16 to 24+ hrs",
+    "establishedClinicalBenchmark": "No strict universal acute recovery benchmark established.",
+    "referenceGuidelinesAndManuals": "Perls, Hefferline, & Goodman (1951); experimental-status style references.",
+    "decision": "Best-available conservative benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The depression evidence base is sparse. A longer exploratory therapy range is safer and more conservative than a short historical trial estimate."
+  },
+  {
+    "therapyType": "Group cognitive behavioural therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1.5 to 2 hrs",
+    "totalEstimatedHours": "12 to 24 hrs",
+    "establishedClinicalBenchmark": "Remission: PHQ-9 < 5 or BDI <= 8.",
+    "referenceGuidelinesAndManuals": "Burlingame et al. (2013) APA Handbook of Group Psychotherapy.",
+    "decision": "Manual/group benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Recalculated study rows support group CBT, but a group-manual benchmark is more reliable for final planning and conservatively captures longer sessions."
+  },
+  {
+    "therapyType": "Group interpersonal psychotherapy",
+    "targetClinicalDurationWeeks": "12 to 16 weeks",
+    "hoursPerWeek": "1.5 to 2 hrs",
+    "totalEstimatedHours": "18 to 32 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 by week 16.",
+    "referenceGuidelinesAndManuals": "Wilfley et al. (2000). Group Interpersonal Psychotherapy Manual.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The study pool is favorable, but the group IPT manual gives the most reliable course structure and conservatively captures higher contact hours."
+  },
+  {
+    "therapyType": "Group person-based cognitive therapy",
+    "targetClinicalDurationWeeks": "8 to 10 weeks",
+    "hoursPerWeek": "1.5 to 2 hrs",
+    "totalEstimatedHours": "12 to 20 hrs",
+    "establishedClinicalBenchmark": "Remission: sub-clinical threshold.",
+    "referenceGuidelinesAndManuals": "Chadwick (2006). Person-Based Cognitive Therapy manual tradition.",
+    "decision": "Best-available benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Because the evidence base is niche and small, the manual-style group benchmark is safer than relying only on a single pilot estimate."
+  },
+  {
+    "therapyType": "Guided self-help",
+    "targetClinicalDurationWeeks": "6 to 8 weeks",
+    "hoursPerWeek": "~1.25 hrs",
+    "totalEstimatedHours": "7.5 to 10 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "NICE depression in adults step-2 guidance.",
+    "decision": "Guideline benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Guided self-help is a stepped-care format, so NICE provides the most reliable duration. The benchmark is slightly more conservative than the exact 7 to 8 week trial rows."
+  },
+  {
+    "therapyType": "Integrative cognitive therapy",
+    "targetClinicalDurationWeeks": "16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "16 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 by week 16.",
+    "referenceGuidelinesAndManuals": "Constantino et al. (2008). Journal of Clinical Psychology.",
+    "decision": "Manual/study benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The intervention is specialized and the strongest benchmark is the longer 16-week format. This is more conservative than shortening it to standard CBT length."
+  },
+  {
+    "therapyType": "Internet-based behavioral activation",
+    "targetClinicalDurationWeeks": "6 to 8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "6 to 8 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "Andersson & Titov (2014) and iBA program benchmarks.",
+    "decision": "External benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "A single exact trial suggests 5 weeks, but the broader internet BA literature supports 6 to 8 weeks as a safer planning range."
+  },
+  {
+    "therapyType": "Internet-based cognitive behavior therapy",
+    "targetClinicalDurationWeeks": "8 to 10 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 10 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "Cuijpers et al. (2013) Cochrane-style iCBT benchmark.",
+    "decision": "External benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Single-study rows often show 6 weeks, but broader iCBT evidence and service models usually run longer. The guideline/meta-analytic range is more reliable and more conservative."
+  },
+  {
+    "therapyType": "Internet-based problem-solving training",
+    "targetClinicalDurationWeeks": "5 to 8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "5 to 8 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Farrer et al. (2011) and digital PST literature.",
+    "decision": "External benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The exact study row is plausible, but the benchmark range is better for planning because it captures variation across internet PST formats."
+  },
+  {
+    "therapyType": "Internet-based treatment",
+    "targetClinicalDurationWeeks": "6 to 10 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "6 to 10 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "Andersson & Titov (2014) World Psychiatry style benchmark; digital treatment guidelines.",
+    "decision": "External benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "As an umbrella category, internet-based treatment should use a broad program benchmark rather than one pooled study estimate. The chosen range is conservative."
+  },
+  {
+    "therapyType": "Interpersonal counseling",
+    "targetClinicalDurationWeeks": "4 to 8 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "2 to 8 hrs",
+    "establishedClinicalBenchmark": "Remission: PHQ-9 < 5 by week 8.",
+    "referenceGuidelinesAndManuals": "Weissman et al. (2014). Interpersonal Counseling Manual.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "IPC is intentionally briefer than full IPT. The manual benchmark is the clearest and most reliable course-length estimate."
+  },
+  {
+    "therapyType": "Interpersonal psychotherapy",
+    "targetClinicalDurationWeeks": "12 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "12 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 by week 16.",
+    "referenceGuidelinesAndManuals": "Weissman, Markowitz, & Klerman (2000). Comprehensive Guide to IPT.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Although pooled study timing can be closer to 10 to 12 weeks, the classic IPT benchmark is 12 to 16 sessions and is more conservative for planning."
+  },
+  {
+    "therapyType": "Interpersonal therapy",
+    "targetClinicalDurationWeeks": "12 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "12 to 16 hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7 by week 16.",
+    "referenceGuidelinesAndManuals": "Weissman, Markowitz, & Klerman (2000); APA guideline support.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "As a broad IPT-family label, it should use the standard established IPT time-limited course rather than a narrower pooled estimate."
+  },
+  {
+    "therapyType": "Life review therapy",
+    "targetClinicalDurationWeeks": "4 to 8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "4 to 8 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Bohlmeijer et al. life review / reminiscence meta-analytic benchmark.",
+    "decision": "Meta-analytic benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The external range matches the better-weighted study summary and is more reliable than any single reminiscence trial."
+  },
+  {
+    "therapyType": "Metacognitive therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Remission: BDI <= 8 or HAM-D <= 7.",
+    "referenceGuidelinesAndManuals": "Wells (2009). Metacognitive Therapy for Anxiety and Depression.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The exact RCT shows a 10-week format, which sits inside the manual benchmark. The benchmark is therefore preferred as the more reliable and slightly more conservative planning value."
+  },
+  {
+    "therapyType": "Metacognitive training",
+    "targetClinicalDurationWeeks": "8 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Normann & Morina (2018). Clinical Psychology Review.",
+    "decision": "Review benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The review-based 8-session structure matches the exact study row and is more externally defensible."
+  },
+  {
+    "therapyType": "Mindfulness-based intervention",
+    "targetClinicalDurationWeeks": "8 weeks",
+    "hoursPerWeek": "2.5 hrs + retreat",
+    "totalEstimatedHours": "~26 hrs",
+    "establishedClinicalBenchmark": "Relapse prevention / remission follow-up often assessed over months to 1 year.",
+    "referenceGuidelinesAndManuals": "Segal, Williams, & Teasdale (2002). MBCT manual.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The shorter study-derived hour estimate undercounts standard MBCT-style delivery. The established 8-week program with longer sessions and retreat is the more reliable and more conservative course estimate."
+  },
+  {
+    "therapyType": "Mindfulness-based therapy",
+    "targetClinicalDurationWeeks": "8 weeks",
+    "hoursPerWeek": "2.5 hrs + retreat",
+    "totalEstimatedHours": "~26 hrs",
+    "establishedClinicalBenchmark": "Relapse prevention / remission follow-up often assessed over months to 1 year.",
+    "referenceGuidelinesAndManuals": "Kuyken et al. (2016) MBCT benchmark; MBCT manuals.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "A 4-week study-style estimate is too short for standard mindfulness-based therapy. The full MBCT-style benchmark is more reliable and much more conservative."
+  },
+  {
+    "therapyType": "Morita therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Ishiyama (1990) / Japanese Society for Morita Therapy benchmarks.",
+    "decision": "Best-available benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The evidence base is limited, so the broader external benchmark is preferable to one pilot trial."
+  },
+  {
+    "therapyType": "Mothers and babies course",
+    "targetClinicalDurationWeeks": "6 weeks",
+    "hoursPerWeek": "1.5 to 2 hrs",
+    "totalEstimatedHours": "9 to 12 hrs",
+    "establishedClinicalBenchmark": "Remission target often assessed as EPDS < 10 at 12 weeks postpartum.",
+    "referenceGuidelinesAndManuals": "Munoz et al. (2007). Mothers and Babies Course Instructor's Manual.",
+    "decision": "Manual benchmark chosen over postpartum endpoint",
+    "finalRationaleAndCalculationEvidence": "The 12-week figure in the study row is an outcome endpoint, not the course length. Because the requested column is target clinical duration, the 6-week manualized course is the correct and more reliable planning value."
+  },
+  {
+    "therapyType": "Motivational interviewing",
+    "targetClinicalDurationWeeks": "1 to 4 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "1 to 4 hrs",
+    "establishedClinicalBenchmark": "Readiness for change / engagement benchmark rather than full remission.",
+    "referenceGuidelinesAndManuals": "Miller & Rollnick (2012). Motivational Interviewing, 3rd ed.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "MI is commonly brief and adjunctive. The manual benchmark is more appropriate than stretching it into a full depression-treatment duration."
+  },
+  {
+    "therapyType": "Nondirective supportive therapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Cuijpers et al. (2012) supportive therapy review; APA guideline support.",
+    "decision": "Review/guideline benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The pooled study figure is useful, but a broad supportive-therapy benchmark is more reliable and more conservative for planning."
+  },
+  {
+    "therapyType": "Online therapy",
+    "targetClinicalDurationWeeks": "6 to 10 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "3 to 10 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "Andrews et al. (2010) online treatment benchmark.",
+    "decision": "External benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Because online therapy is a delivery format rather than one therapy, the broader benchmark is more reliable than a thin two-row study synthesis."
+  },
+  {
+    "therapyType": "Peer-delivered cognitive behavioral therapy",
+    "targetClinicalDurationWeeks": "8 to 9 weeks",
+    "hoursPerWeek": "1.5 hours",
+    "totalEstimatedHours": "12 to 13.5 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% reduction in EPDS.",
+    "referenceGuidelinesAndManuals": "Pfeiffer et al. meta-analytic benchmark / peer-CBT literature.",
+    "decision": "Benchmark chosen with close study support",
+    "finalRationaleAndCalculationEvidence": "The exact Amani-style study row is strong, but the benchmark range is consistent and slightly more conservative on hours."
+  },
+  {
+    "therapyType": "Perinatal dyadic psychotherapy",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 12 hrs",
+    "establishedClinicalBenchmark": "Remission: EPDS < 10 by week 12.",
+    "referenceGuidelinesAndManuals": "Lieberman et al. / child-parent psychotherapy manual tradition.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The pilot study is weak for planning. The dyadic psychotherapy manual-style duration is more reliable and more conservative."
+  },
+  {
+    "therapyType": "Problem-solving therapy",
+    "targetClinicalDurationWeeks": "6 to 12 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "6 to 12 hrs",
+    "establishedClinicalBenchmark": "Remission: PHQ-9 < 5 by week 12.",
+    "referenceGuidelinesAndManuals": "Nezu, Nezu, & D'Zurilla (2013). PST manual.",
+    "decision": "Manual/meta-analytic benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "The pooled study row points to a short format, but the broader PST benchmark is more reliable and conservative."
+  },
+  {
+    "therapyType": "Psychodynamic psychotherapy",
+    "targetClinicalDurationWeeks": "16 to 52+ wks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "16 to 52+ hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7.",
+    "referenceGuidelinesAndManuals": "Shedler (2010); Leichsenring et al.; psychodynamic guideline literature.",
+    "decision": "Guideline/review benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Psychodynamic psychotherapy varies widely, but the longer benchmark is more faithful to established practice and more conservative than a short pooled endpoint."
+  },
+  {
+    "therapyType": "Psychodynamic therapy",
+    "targetClinicalDurationWeeks": "16 to 52+ wks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "16 to 52+ hrs",
+    "establishedClinicalBenchmark": "Remission: HAM-D <= 7.",
+    "referenceGuidelinesAndManuals": "APA guideline support; STPP/STDP reviews.",
+    "decision": "Guideline/review benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "As a family-level category, psychodynamic therapy should use the conservative established range rather than a narrow pooled estimate."
+  },
+  {
+    "therapyType": "Psychotherapy",
+    "targetClinicalDurationWeeks": "8 to 16 weeks",
+    "hoursPerWeek": "1 hour",
+    "totalEstimatedHours": "8 to 16 hrs",
+    "establishedClinicalBenchmark": "Response typically assessed at around week 8 or later depending on modality.",
+    "referenceGuidelinesAndManuals": "APA Clinical Practice Guideline for the Treatment of Depression (2019).",
+    "decision": "Guideline umbrella benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "This is an umbrella label, so the APA benchmark is more reliable than any pooled estimate from mixed modalities."
+  },
+  {
+    "therapyType": "Social problem-solving therapy",
+    "targetClinicalDurationWeeks": "10 to 12 weeks",
+    "hoursPerWeek": "1 to 1.5 hrs",
+    "totalEstimatedHours": "10 to 18 hrs",
+    "establishedClinicalBenchmark": "Remission: BDI <= 8 by week 12.",
+    "referenceGuidelinesAndManuals": "D'Zurilla & Nezu (1999). Social Problem-Solving Therapy Manual.",
+    "decision": "Manual benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Older exact-match studies exist, but the manual benchmark is more reliable and more conservative."
+  },
+  {
+    "therapyType": "Task-shifting interpersonal counseling",
+    "targetClinicalDurationWeeks": "4 to 8 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "2 to 8 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% PHQ-9 reduction.",
+    "referenceGuidelinesAndManuals": "WHO mhGAP Intervention Guide (2016).",
+    "decision": "WHO benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Task-shifting IPC is a low-intensity format, so mhGAP provides the strongest practical benchmark. It is more generalizable than one small pragmatic trial."
+  },
+  {
+    "therapyType": "Telephone-based psychotherapy",
+    "targetClinicalDurationWeeks": "6 to 12 weeks",
+    "hoursPerWeek": "0.5 to 1 hr",
+    "totalEstimatedHours": "3 to 12 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Mohr et al. tele-CBT protocol and telepsychotherapy literature.",
+    "decision": "Protocol benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Telephone psychotherapy is a delivery format, so the tele-CBT protocol range is more reliable than a pooled average over heterogeneous telephone interventions."
+  },
+  {
+    "therapyType": "Third-wave cognitive therapies",
+    "targetClinicalDurationWeeks": "8 to 12 weeks",
+    "hoursPerWeek": "1 to 2 hrs",
+    "totalEstimatedHours": "8 to 24 hrs",
+    "establishedClinicalBenchmark": "Response: >= 50% scale reduction.",
+    "referenceGuidelinesAndManuals": "Hunot et al. Cochrane-style benchmark; ACT/MBCT literature.",
+    "decision": "Benchmark chosen",
+    "finalRationaleAndCalculationEvidence": "Because this is a broad family-level row, the external benchmark is more reliable than any single pooled effect row and more conservative on time."
+  }
+]

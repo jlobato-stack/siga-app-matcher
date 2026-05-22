@@ -1,0 +1,23 @@
+{
+  "diagnosticPenalties": {
+    "unconfirmed": 10,
+    "unknown": 7
+  },
+  "cautionPenalties": {
+    "high_suicidal_ideation": 14,
+    "possible_mania": 8,
+    "possible_psychosis": 10
+  },
+  "missingDataPenalty": {
+    "penaltyPerUnknown": 3,
+    "maxMissingPenalty": 15,
+    "manyUnknownAnswersThreshold": 3
+  },
+  "confidenceBands": [
+    { "label": "high", "min": 75 },
+    { "label": "moderate", "min": 55 },
+    { "label": "low", "min": 0 }
+  ],
+  "tieThreshold": 3,
+  "contextCap": 10
+}

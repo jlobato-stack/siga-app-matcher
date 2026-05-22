@@ -1,0 +1,285 @@
+[
+  {
+    "id": "privacy_policy_uk",
+    "path": "/privacy-policy-uk",
+    "title": "Privacy policy for UK users",
+    "shortTitle": "Privacy policy",
+    "lastUpdated": "20 May 2026",
+    "summary": "This policy explains what information SIGA Depression Matcher uses, where it is stored, and what choices UK users have.",
+    "sections": [
+      {
+        "heading": "Who this policy is for",
+        "body": [
+          "This privacy policy is for people in the UK who use SIGA Depression Matcher.",
+          "SIGA Depression Matcher is a browser-based tool that asks questions and suggests treatment categories that may fit your answers. It is not a diagnosis tool and it is not a medical record."
+        ]
+      },
+      {
+        "heading": "Who is responsible for the app",
+        "body": [
+          "Service operator: SIGA Depression Matcher.",
+          "Data controller contact: add the operator name, address, and support email before public launch.",
+          "UK data protection contact: add this before public launch if the operator needs one under UK data protection law."
+        ]
+      },
+      {
+        "heading": "What information the app uses",
+        "body": [
+          "The app may use your answers about depression history, safety concerns, age band, pregnancy or postnatal status, physical health, treatment preferences, and what your depression feels linked to.",
+          "Some of these answers can be health information. In the UK, health information is treated as special category data and needs extra care.",
+          "The app may also use basic technical information if it is hosted online, such as IP address, browser type, device information, pages visited, and error logs."
+        ]
+      },
+      {
+        "heading": "Where your answers are stored",
+        "body": [
+          "In the current app, questionnaire answers are processed in your browser.",
+          "If you choose to save and return later, a draft is saved in local storage on your own device. Local storage is similar to a small browser note that stays on that device until it is cleared.",
+          "The app also keeps a local usage database in your browser. It records basic app events such as sign-in, legal agreement, questionnaire start, question progress, result completion, crisis routing, and budget-page opening. It is used to understand app use and does not store your questionnaire answers.",
+          "When you finish the questionnaire or restart, the saved draft is cleared by the app. You can also clear it by clearing your browser data.",
+          "The current app does not show a backend service that receives your completed answers or usage events."
+        ]
+      },
+      {
+        "heading": "Why the app uses information",
+        "body": [
+          "The app uses your answers to work out treatment match levels, show safety signposts, explain why a treatment matched, show possible providers, and create the time-planning page.",
+          "Technical information may be used to keep the site secure, find errors, and understand whether the app is working."
+        ]
+      },
+      {
+        "heading": "Legal basis",
+        "body": [
+          "For the current browser-only version, most questionnaire processing happens on your device.",
+          "If a hosted version sends health answers to the operator, the operator should normally ask for clear explicit consent before processing those health answers.",
+          "For technical logs, the operator may rely on legitimate interests, such as keeping the service secure and working. The operator must check and document the correct legal basis before public launch."
+        ]
+      },
+      {
+        "heading": "Who information is shared with",
+        "body": [
+          "We do not sell your questionnaire answers.",
+          "The app links to outside providers and resources. If you open an outside link, that website will have its own privacy policy.",
+          "If the app is hosted online, the hosting provider may process technical logs. If analytics or monitoring tools are added later, this policy should be updated before those tools are used."
+        ]
+      },
+      {
+        "heading": "How long information is kept",
+        "body": [
+          "Saved drafts stay in your browser until you finish, restart, or clear your browser data.",
+          "Results stay in the current app session unless the app stores them in your browser.",
+          "Technical logs, if used by the host, should be kept only for as long as needed for security and maintenance."
+        ]
+      },
+      {
+        "heading": "Your UK privacy rights",
+        "body": [
+          "Depending on the situation, UK users may have the right to ask for access, correction, deletion, restriction, objection, portability, and withdrawal of consent.",
+          "You can also complain to the UK Information Commissioner's Office if you are unhappy with how personal data is handled.",
+          "Contact details for privacy requests must be added before public launch."
+        ]
+      },
+      {
+        "heading": "Important safety note",
+        "body": [
+          "The app is not monitored in real time.",
+          "If you may hurt yourself or someone else, call 999 or go to A&E. If you need urgent mental health help in the UK, use NHS 111 online or call 111 and select the mental health option."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "ICO UK GDPR guidance",
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
+      },
+      {
+        "label": "ICO special category data guidance",
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/"
+      },
+      {
+        "label": "NHS urgent mental health help",
+        "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+      }
+    ]
+  },
+  {
+    "id": "terms_of_service_uk",
+    "path": "/terms-of-service-uk",
+    "title": "Terms of service for UK users",
+    "shortTitle": "Terms of service",
+    "lastUpdated": "20 May 2026",
+    "summary": "These terms explain how UK users may use SIGA Depression Matcher and what the app can and cannot do.",
+    "sections": [
+      {
+        "heading": "About these terms",
+        "body": [
+          "These terms apply when you use SIGA Depression Matcher in the UK.",
+          "By using the app, you agree to use it only for personal information and planning support."
+        ]
+      },
+      {
+        "heading": "Who can use the app",
+        "body": [
+          "The app is designed for adults aged 18 or over.",
+          "If you are under 18, please use the app only with support from a parent, guardian, GP, therapist, school support team, or another trusted adult."
+        ]
+      },
+      {
+        "heading": "What the app provides",
+        "body": [
+          "The app asks questions about your situation and shows treatment categories that may fit your answers.",
+          "It may also show treatment descriptions, provider links, match levels, and time-planning information.",
+          "The app is for information and planning. It does not provide a diagnosis, prescribe treatment, or replace care from a qualified professional."
+        ]
+      },
+      {
+        "heading": "Your responsibilities",
+        "body": [
+          "Use the app honestly and carefully.",
+          "Do not rely on the app as your only source of help if you feel unsafe, very unwell, or unsure what to do.",
+          "Check treatment choices with a qualified health professional, especially if you have suicidal thoughts, possible mania, unusual experiences, pregnancy or postnatal concerns, a long-term physical health condition, or complex symptoms."
+        ]
+      },
+      {
+        "heading": "Outside links and providers",
+        "body": [
+          "The app may link to provider directories, clinics, digital tools, charities, and public health resources.",
+          "Those outside services are not controlled by SIGA Depression Matcher.",
+          "A link does not mean we guarantee the provider, treatment, price, availability, safety, registration status, or quality."
+        ]
+      },
+      {
+        "heading": "Availability and changes",
+        "body": [
+          "The app may change, pause, or stop at any time.",
+          "Treatment evidence, provider availability, prices, and guidance can change. The app should be reviewed and updated regularly."
+        ]
+      },
+      {
+        "heading": "Intellectual property",
+        "body": [
+          "The app design, wording, scoring structure, and data organisation belong to the operator or its licensors, unless a source says otherwise.",
+          "You may use the app for personal use. You may not copy, sell, or republish the app as your own product without permission."
+        ]
+      },
+      {
+        "heading": "Liability",
+        "body": [
+          "Nothing in these terms limits liability where UK law does not allow that, including liability for death or personal injury caused by negligence, fraud, or rights that cannot be excluded.",
+          "As far as UK law allows, the app is provided without a promise that it will be error-free, always available, or suitable for every person.",
+          "The app cannot guarantee that a treatment will work for you."
+        ]
+      },
+      {
+        "heading": "UK consumer rights",
+        "body": [
+          "These terms are intended to be fair and plain English.",
+          "Nothing in these terms removes any consumer rights that UK law gives you."
+        ]
+      },
+      {
+        "heading": "Governing law",
+        "body": [
+          "These terms are governed by the laws of England and Wales, unless mandatory consumer rules in Scotland or Northern Ireland give you rights that cannot be changed by these terms."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "body": [
+          "Add the operator name, address, and support email before public launch."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "GOV.UK guidance on fair contracts",
+        "url": "https://www.gov.uk/guidance/how-to-write-fair-contracts"
+      },
+      {
+        "label": "NHS urgent mental health help",
+        "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+      }
+    ]
+  },
+  {
+    "id": "disclaimer_uk",
+    "path": "/disclaimer-uk",
+    "title": "Health and safety disclaimer for UK users",
+    "shortTitle": "Disclaimer",
+    "lastUpdated": "20 May 2026",
+    "summary": "This disclaimer explains the limits of SIGA Depression Matcher for health, safety, treatment, and provider information.",
+    "sections": [
+      {
+        "heading": "Not a diagnosis",
+        "body": [
+          "SIGA Depression Matcher does not diagnose depression or any other condition.",
+          "The app uses your answers to compare treatment categories. It cannot examine you, understand your full history, or make a clinical judgement."
+        ]
+      },
+      {
+        "heading": "Not a substitute for professional care",
+        "body": [
+          "The app is not a replacement for a GP, NHS mental health service, psychiatrist, psychologist, therapist, counsellor, crisis team, or emergency service.",
+          "Always speak to a qualified professional before starting, stopping, or changing treatment."
+        ]
+      },
+      {
+        "heading": "Not for emergencies",
+        "body": [
+          "The app is not monitored and cannot respond to emergencies.",
+          "If there is an immediate risk of harm, call 999 or go to A&E.",
+          "If you need urgent mental health help in the UK, use NHS 111 online or call 111 and select the mental health option."
+        ]
+      },
+      {
+        "heading": "What match levels mean",
+        "body": [
+          "A match level means the treatment category fitted your answers inside this app.",
+          "It does not mean the treatment will definitely help. It does not measure your chance of recovery. It does not replace clinical advice."
+        ]
+      },
+      {
+        "heading": "Treatment information",
+        "body": [
+          "Treatment descriptions and time-planning information are general educational information.",
+          "Real treatment length, cost, format, and suitability can vary by person, provider, NHS pathway, private clinic, location, and clinical need."
+        ]
+      },
+      {
+        "heading": "Provider information",
+        "body": [
+          "Provider links are signposts only.",
+          "Before using any provider, check their qualifications, professional registration, fees, location, availability, safeguarding process, complaints process, privacy policy, and whether they are right for your needs."
+        ]
+      },
+      {
+        "heading": "Software status",
+        "body": [
+          "This app is intended as an information and planning tool.",
+          "It is not presented as a regulated medical device. If the app is later changed to diagnose, prevent, monitor, predict, treat, or manage a condition in a way that falls under UK medical device rules, the operator should review MHRA requirements before release."
+        ]
+      },
+      {
+        "heading": "Use your judgement",
+        "body": [
+          "If something in the app feels wrong for your situation, pause and speak to a qualified professional.",
+          "If your symptoms are severe, changing quickly, or linked with safety concerns, seek professional help promptly."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "NHS urgent mental health help",
+        "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+      },
+      {
+        "label": "NHS 111 online medical device information",
+        "url": "https://digital.nhs.uk/services/nhs-111-online/nhs-111-online-is-a-class-1-medical-device"
+      },
+      {
+        "label": "MHRA digital mental health technology guidance announcement",
+        "url": "https://www.gov.uk/government/news/digital-mental-health-technologies-guidance-launched-to-help-manufacturers-and-safeguard-users"
+      }
+    ]
+  }
+]
