@@ -1,0 +1,2166 @@
+[
+  {
+    "id": "beck-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "Beck Institute",
+    "providerType": "professional-body",
+    "url": "https://beckinstitute.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "judith-beck-cognitive-therapy",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive therapy",
+    "providerName": "Dr. Judith S. Beck",
+    "providerType": "clinic",
+    "url": "https://beckinstitute.org/about/dr-judith-s-beck-phd/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "mgh-antenatal-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Antenatal cognitive behavioral therapy",
+    "matchLevel": 3,
+    "matchedTo": "Antenatal cognitive behavioral therapy",
+    "providerName": "MGH Center for Women's Mental Health",
+    "providerType": "research-center",
+    "url": "https://womensmentalhealth.org/",
+    "regions": [
+      "North America",
+      "Global"
+    ],
+    "countries": [
+      "United States",
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ],
+    "notes": "Perinatal and reproductive mental health specialty center."
+  },
+  {
+    "id": "beck-brief-cacbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Brief culturally adapted cbt",
+    "matchLevel": 2,
+    "matchedTo": "Standard cognitive & behavioral (CBT)",
+    "providerName": "Beck Institute",
+    "providerType": "professional-body",
+    "url": "https://beckinstitute.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ],
+    "notes": "Fallback to core CBT provider because a clean public directory for this exact variant is not consistently available."
+  },
+  {
+    "id": "cbt-center-integrative-cognitive-therapy",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Integrative cognitive therapy",
+    "matchLevel": 3,
+    "matchedTo": "Integrative cognitive therapy",
+    "providerName": "The CBT Center of New York",
+    "providerType": "clinic",
+    "url": "https://cbtcenterofny.com",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "silvercloud-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "SilverCloud by Amwell",
+    "providerType": "platform",
+    "url": "https://silvercloud.amwell.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Structured online CBT programs, often offered with guidance through health systems, employers, or universities."
+  },
+  {
+    "id": "mindler-ieso-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "Mindler (previously ieso)",
+    "providerType": "platform",
+    "url": "https://www.iesohealth.com",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "formats": [
+      "online"
+    ]
+  },
+  {
+    "id": "mindspot-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "MindSpot",
+    "providerType": "platform",
+    "url": "https://www.mindspot.org.au/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online",
+      "telephone"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Free digital mental health clinic with assessment and therapist-supported treatment for Australian adults."
+  },
+  {
+    "id": "nhs-group-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Group cognitive behavioural therapy",
+    "matchLevel": 3,
+    "matchedTo": "Group cognitive behavioural therapy",
+    "providerName": "NHS Talking Therapies",
+    "providerType": "directory",
+    "url": "https://www.nhs.uk/service-search/mental-health/find-an-nhs-talking-therapies-service",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "formats": [
+      "in-person",
+      "online",
+      "telephone",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "beck-peer-delivered-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Peer-delivered cognitive behavioral therapy",
+    "matchLevel": 2,
+    "matchedTo": "Standard cognitive & behavioral (CBT)",
+    "providerName": "Beck Institute",
+    "providerType": "professional-body",
+    "url": "https://beckinstitute.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "mgh-parkinsons-cbt-fallback",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive-behavioral therapy for depression in parkinson’s disease",
+    "matchLevel": 2,
+    "matchedTo": "Standard cognitive & behavioral (CBT)",
+    "providerName": "Beck Institute",
+    "providerType": "professional-body",
+    "url": "https://beckinstitute.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ],
+    "notes": "Fallback to a validated CBT provider because disease-specific public provider directories are inconsistent."
+  },
+  {
+    "id": "uw-ba-therapy",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Behavioral & activation-focused",
+    "level3": "Behavioral activation therapy",
+    "matchLevel": 3,
+    "matchedTo": "Behavioral activation therapy",
+    "providerName": "University of Washington Behavioral Research and Therapy Clinics",
+    "providerType": "research-center",
+    "url": "https://depts.washington.edu/uwbrtc",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "addis-ba",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Behavioral & activation-focused",
+    "level3": "Behavioral activation",
+    "matchLevel": 3,
+    "matchedTo": "Behavioral activation",
+    "providerName": "Addis Research Group",
+    "providerType": "research-center",
+    "url": "https://www.psychiatry.wisc.edu/research/addis-lab",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "research"
+    ],
+    "notes": "Research-center listing; use as a source for BA-specific work rather than a consumer directory."
+  },
+  {
+    "id": "therapyroute-behavioral-treatment",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Behavioral & activation-focused",
+    "level3": "Behavioral treatment",
+    "matchLevel": 2,
+    "matchedTo": "Behavioral & activation-focused",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "woebot-digital-ba",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Behavioral & activation-focused",
+    "level3": "Digital behavioral activation intervention",
+    "matchLevel": 3,
+    "matchedTo": "Digital behavioral activation intervention",
+    "providerName": "Woebot Health",
+    "providerType": "platform",
+    "url": "https://woebothealth.com/for-users/",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai"
+  },
+  {
+    "id": "silvercloud-internet-ba",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Behavioral & activation-focused",
+    "level3": "Internet-based behavioral activation",
+    "matchLevel": 2,
+    "matchedTo": "Behavioral & activation-focused",
+    "providerName": "SilverCloud by Amwell",
+    "providerType": "platform",
+    "url": "https://silvercloud.amwell.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Structured online CBT programs, often offered with guidance through health systems, employers, or universities."
+  },
+  {
+    "id": "acbs-act",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Acceptance and commitment therapy",
+    "matchLevel": 3,
+    "matchedTo": "Acceptance and commitment therapy",
+    "providerName": "Association for Contextual Behavioral Science",
+    "providerType": "directory",
+    "url": "https://contextualscience.org/civicrm/profile?force=1&gid=17&reset=1",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "oxford-mindfulness-intervention",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based intervention",
+    "matchLevel": 3,
+    "matchedTo": "Mindfulness-based intervention",
+    "providerName": "Oxford Mindfulness",
+    "providerType": "program",
+    "url": "https://oxfordmindfulness.org/",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "msc-mindfulness-therapy",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based therapy",
+    "matchLevel": 3,
+    "matchedTo": "Mindfulness-based therapy",
+    "providerName": "Center for Mindful Self-Compassion",
+    "providerType": "program",
+    "url": "https://centerformsc.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "acbs-third-wave",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Third-wave cognitive therapies",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Association for Contextual Behavioral Science",
+    "providerType": "directory",
+    "url": "https://contextualscience.org",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "compassionate-mind-compassion",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Metacognitive & compassion focus",
+    "level3": "Compassion-based intervention",
+    "matchLevel": 3,
+    "matchedTo": "Compassion-based intervention",
+    "providerName": "Compassionate Mind Foundation",
+    "providerType": "program",
+    "url": "https://compassionatemind.co.uk",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "mct-institute-therapy",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Metacognitive & compassion focus",
+    "level3": "Metacognitive therapy",
+    "matchLevel": 3,
+    "matchedTo": "Metacognitive therapy",
+    "providerName": "Metacognitive Therapy Institute",
+    "providerType": "program",
+    "url": "https://mct-institute.co.uk",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "mct-institute-training",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Metacognitive & compassion focus",
+    "level3": "Metacognitive training",
+    "matchLevel": 2,
+    "matchedTo": "Metacognitive therapy",
+    "providerName": "Metacognitive Therapy Institute",
+    "providerType": "program",
+    "url": "https://mct-institute.co.uk",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "isipt-ippsychotherapy",
+    "level1": "Interpersonal & social family",
+    "level2": "Interpersonal psychotherapy (IPT)",
+    "level3": "Interpersonal psychotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Interpersonal psychotherapy",
+    "providerName": "International Society of Interpersonal Psychotherapy",
+    "providerType": "professional-body",
+    "url": "https://iptinstitute.com/ipt-directory/ipt-certified-therapists/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "isipt-interpersonal-therapy",
+    "level1": "Interpersonal & social family",
+    "level2": "Interpersonal psychotherapy (IPT)",
+    "level3": "Interpersonal therapy",
+    "matchLevel": 3,
+    "matchedTo": "Interpersonal therapy",
+    "providerName": "International Society of Interpersonal Psychotherapy",
+    "providerType": "professional-body",
+    "url": "https://interpersonalpsychotherapy.org/about-isipt/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "isipt-interpersonal-counseling",
+    "level1": "Interpersonal & social family",
+    "level2": "Interpersonal psychotherapy (IPT)",
+    "level3": "Interpersonal counseling",
+    "matchLevel": 2,
+    "matchedTo": "Interpersonal psychotherapy (IPT)",
+    "providerName": "International Society of Interpersonal Psychotherapy",
+    "providerType": "professional-body",
+    "url": "https://interpersonalpsychotherapy.org/trainings/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "isipt-group-ipt",
+    "level1": "Interpersonal & social family",
+    "level2": "Interpersonal psychotherapy (IPT)",
+    "level3": "Group interpersonal psychotherapy",
+    "matchLevel": 2,
+    "matchedTo": "Interpersonal psychotherapy (IPT)",
+    "providerName": "International Society of Interpersonal Psychotherapy",
+    "providerType": "professional-body",
+    "url": "https://interpersonalpsychotherapy.org/trainings/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "isipt-task-shifting-ipc",
+    "level1": "Interpersonal & social family",
+    "level2": "Interpersonal psychotherapy (IPT)",
+    "level3": "Task-shifting interpersonal counseling",
+    "matchLevel": 2,
+    "matchedTo": "Interpersonal psychotherapy (IPT)",
+    "providerName": "International Society of Interpersonal Psychotherapy",
+    "providerType": "professional-body",
+    "url": "https://interpersonalpsychotherapy.org/trainings/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "cci-problem-solving",
+    "level1": "Interpersonal & social family",
+    "level2": "Problem-solving & social skills",
+    "level3": "Problem-solving therapy",
+    "matchLevel": 3,
+    "matchedTo": "Problem-solving therapy",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "cci-internet-pst",
+    "level1": "Interpersonal & social family",
+    "level2": "Problem-solving & social skills",
+    "level3": "Internet-based problem-solving training",
+    "matchLevel": 2,
+    "matchedTo": "Problem-solving & social skills",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "therapyroute-social-pst",
+    "level1": "Interpersonal & social family",
+    "level2": "Problem-solving & social skills",
+    "level3": "Social problem-solving therapy",
+    "matchLevel": 2,
+    "matchedTo": "Problem-solving & social skills",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "tavistock-psychodynamic-psychotherapy",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Psychodynamic approaches",
+    "level3": "Psychodynamic psychotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Psychodynamic psychotherapy",
+    "providerName": "Tavistock and Portman",
+    "providerType": "clinic",
+    "url": "https://tavistockandportman.ac.uk/courses/psychodynamic-psychotherapy-london/",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "formats": [
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "austen-riggs-psychodynamic-therapy",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Psychodynamic approaches",
+    "level3": "Psychodynamic therapy",
+    "matchLevel": 3,
+    "matchedTo": "Psychodynamic therapy",
+    "providerName": "Austen Riggs Center",
+    "providerType": "clinic",
+    "url": "https://www.austenriggs.org/our-treatment/programs-services/psychotherapy",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person"
+    ]
+  },
+  {
+    "id": "gti-gestalt",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Humanistic & experiential",
+    "level3": "Gestalt therapy",
+    "matchLevel": 3,
+    "matchedTo": "Gestalt therapy",
+    "providerName": "Gestalt Therapy International",
+    "providerType": "program",
+    "url": "https://gti.today/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person"
+    ]
+  },
+  {
+    "id": "therapyroute-life-review",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Humanistic & experiential",
+    "level3": "Life review therapy",
+    "matchLevel": 2,
+    "matchedTo": "Humanistic & experiential",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "morita-committee",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Cultural / non-Western therapies",
+    "level3": "Morita therapy",
+    "matchLevel": 3,
+    "matchedTo": "Morita therapy",
+    "providerName": "International Committee for Morita Therapy",
+    "providerType": "professional-body",
+    "url": "https://moritatherapy.org/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person"
+    ]
+  },
+  {
+    "id": "mayo-counselling",
+    "level1": "Supportive & integrative care family",
+    "level2": "Supportive & general psychotherapy",
+    "level3": "Counselling",
+    "matchLevel": 2,
+    "matchedTo": "Supportive & general psychotherapy",
+    "providerName": "Mayo Clinic Psychiatry & Psychology",
+    "providerType": "clinic",
+    "url": "https://www.mayoclinic.org/departments-centers/psychiatry-psychology/sections/overview/ovc-20573136",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "therapyroute-nondirective-supportive",
+    "level1": "Supportive & integrative care family",
+    "level2": "Supportive & general psychotherapy",
+    "level3": "Nondirective supportive therapy",
+    "matchLevel": 2,
+    "matchedTo": "Supportive & general psychotherapy",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com/about",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "mayo-psychotherapy",
+    "level1": "Supportive & integrative care family",
+    "level2": "Supportive & general psychotherapy",
+    "level3": "Psychotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Psychotherapy",
+    "providerName": "Mayo Clinic",
+    "providerType": "clinic",
+    "url": "https://www.mayoclinic.org/tests-procedures/psychotherapy/doctors-departments/pdc-20384617",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "mint-mi",
+    "level1": "Supportive & integrative care family",
+    "level2": "Skills & behavioral support",
+    "level3": "Motivational interviewing",
+    "matchLevel": 3,
+    "matchedTo": "Motivational interviewing",
+    "providerName": "Motivational Interviewing Network of Trainers",
+    "providerType": "professional-body",
+    "url": "https://motivationalinterviewing.org/motivational-interviewing-training",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "cci-coping-training",
+    "level1": "Supportive & integrative care family",
+    "level2": "Skills & behavioral support",
+    "level3": "Coping effectiveness training",
+    "matchLevel": 2,
+    "matchedTo": "Skills & behavioral support",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "cci-self-control-training",
+    "level1": "Supportive & integrative care family",
+    "level2": "Skills & behavioral support",
+    "level3": "Comprehensive self-control training",
+    "matchLevel": 2,
+    "matchedTo": "Skills & behavioral support",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "mb-course",
+    "level1": "Perinatal & population-specific care",
+    "level2": "Perinatal & population-specific care",
+    "level3": "Mothers and babies course",
+    "matchLevel": 3,
+    "matchedTo": "Mothers and babies course",
+    "providerName": "Mothers and Babies Program",
+    "providerType": "program",
+    "url": "https://www.mothersandbabiesprogram.org/",
+    "regions": [
+      "North America",
+      "Global"
+    ],
+    "countries": [
+      "United States",
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Evidence-based program for pregnant people and new parents to manage stress and help prevent postpartum depression."
+  },
+  {
+    "id": "seleni-perinatal-dyadic",
+    "level1": "Perinatal & population-specific care",
+    "level2": "Perinatal & population-specific care",
+    "level3": "Perinatal dyadic psychotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Perinatal dyadic psychotherapy",
+    "providerName": "Seleni Institute",
+    "providerType": "clinic",
+    "url": "https://seleni.org/therapy-services",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "in-person",
+      "online",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "psi-postpartum-psychotherapy",
+    "level1": "Perinatal & population-specific care",
+    "level2": "Perinatal & population-specific care",
+    "level3": "Psychotherapy for postpartum depression",
+    "matchLevel": 3,
+    "matchedTo": "Psychotherapy for postpartum depression",
+    "providerName": "Postpartum Support International",
+    "providerType": "directory",
+    "url": "https://postpartum.net/get-help/provider-directory/",
+    "regions": [
+      "North America",
+      "Global"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "relit-bibliotherapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Bibliotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Bibliotherapy",
+    "providerName": "ReLit Foundation",
+    "providerType": "program",
+    "url": "https://www.relitfoundation.org/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ]
+  },
+  {
+    "id": "cci-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "silvercloud-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "SilverCloud by Amwell",
+    "providerType": "platform",
+    "url": "https://silvercloud.amwell.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Structured online CBT programs, often offered with guidance through health systems, employers, or universities."
+  },
+  {
+    "id": "beating-the-blues-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 3,
+    "matchedTo": "Online therapy",
+    "providerName": "Beating the Blues",
+    "providerType": "platform",
+    "url": "https://beatingtheblues.co.nz/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Evidence-based online CBT program, including a funded pathway for mild to moderate depression in New Zealand."
+  },
+  {
+    "id": "mindler-telephone-psychotherapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Telephone-based psychotherapy",
+    "matchLevel": 2,
+    "matchedTo": "Digital & remote therapy",
+    "providerName": "MindSpot",
+    "providerType": "platform",
+    "url": "https://www.mindspot.org.au/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online",
+      "telephone"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Free digital mental health clinic with assessment and therapist-supported treatment for Australian adults."
+  },
+  {
+    "id": "bacc-acupuncture",
+    "level1": "Complementary & emerging interventions",
+    "level2": "Complementary & emerging interventions",
+    "level3": "Acupuncture and counselling",
+    "matchLevel": 2,
+    "matchedTo": "Complementary & emerging interventions",
+    "providerName": "British Acupuncture Council",
+    "providerType": "directory",
+    "url": "https://acupuncture.org.uk/",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "formats": [
+      "in-person"
+    ]
+  },
+  {
+    "id": "parnell-intrusive-memories",
+    "level1": "Complementary & emerging interventions",
+    "level2": "Complementary & emerging interventions",
+    "level3": "Alleviating distressing intrusive memories",
+    "matchLevel": 2,
+    "matchedTo": "Complementary & emerging interventions",
+    "providerName": "Parnell Institute",
+    "providerType": "program",
+    "url": "https://parnellinstitute.com",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "in-person"
+    ]
+  },
+  {
+    "id": "therapyroute-general-psychotherapy",
+    "level1": "Supportive & integrative care family",
+    "level2": "Supportive & general psychotherapy",
+    "level3": "Psychotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Psychotherapy",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "psychology-today-general-counselling",
+    "level1": "Supportive & integrative care family",
+    "level2": "Supportive & general psychotherapy",
+    "level3": "Counselling",
+    "matchLevel": 3,
+    "matchedTo": "Counselling",
+    "providerName": "Psychology Today Therapist Directory",
+    "providerType": "directory",
+    "url": "https://www.psychologytoday.com/us/therapists",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "therapyroute-act",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Acceptance and commitment therapy",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "therapyroute-psychodynamic",
+    "level1": "Psychodynamic & humanistic family",
+    "level2": "Psychodynamic approaches",
+    "level3": "Psychodynamic psychotherapy",
+    "matchLevel": 2,
+    "matchedTo": "Psychodynamic approaches",
+    "providerName": "TherapyRoute",
+    "providerType": "directory",
+    "url": "https://www.therapyroute.com",
+    "regions": [
+      "Global",
+      "Africa"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "in-person",
+      "online"
+    ]
+  },
+  {
+    "id": "silvercloud-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "SilverCloud by Amwell",
+    "providerType": "platform",
+    "url": "https://silvercloud.amwell.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Structured online CBT programs, often offered with guidance through health systems, employers, or universities."
+  },
+  {
+    "id": "silvercloud-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "SilverCloud by Amwell",
+    "providerType": "platform",
+    "url": "https://silvercloud.amwell.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Structured online CBT programs, often offered with guidance through health systems, employers, or universities."
+  },
+  {
+    "id": "mindspot-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 3,
+    "matchedTo": "Online therapy",
+    "providerName": "MindSpot",
+    "providerType": "platform",
+    "url": "https://www.mindspot.org.au/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online",
+      "telephone"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Free digital mental health clinic with assessment and therapist-supported treatment for Australian adults."
+  },
+  {
+    "id": "mindspot-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "MindSpot",
+    "providerType": "platform",
+    "url": "https://www.mindspot.org.au/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online",
+      "telephone"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Free digital mental health clinic with assessment and therapist-supported treatment for Australian adults."
+  },
+  {
+    "id": "mindspot-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "MindSpot",
+    "providerType": "platform",
+    "url": "https://www.mindspot.org.au/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online",
+      "telephone"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Free digital mental health clinic with assessment and therapist-supported treatment for Australian adults."
+  },
+  {
+    "id": "this-way-up-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "THIS WAY UP",
+    "providerType": "program",
+    "url": "https://thiswayup.org.au/what-we-treat/depression",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinically proven online courses for depression and mixed anxiety and depression."
+  },
+  {
+    "id": "this-way-up-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "THIS WAY UP",
+    "providerType": "program",
+    "url": "https://thiswayup.org.au/what-we-treat/depression",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinically proven online courses for depression and mixed anxiety and depression."
+  },
+  {
+    "id": "this-way-up-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "THIS WAY UP",
+    "providerType": "program",
+    "url": "https://thiswayup.org.au/what-we-treat/depression",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinically proven online courses for depression and mixed anxiety and depression."
+  },
+  {
+    "id": "this-way-up-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "THIS WAY UP",
+    "providerType": "program",
+    "url": "https://thiswayup.org.au/what-we-treat/depression",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinically proven online courses for depression and mixed anxiety and depression."
+  },
+  {
+    "id": "mental-health-online-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "Mental Health Online - Depression Online",
+    "providerType": "program",
+    "url": "https://www.mentalhealthonline.org.au/programs/depression-online",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Online modular depression program based on CBT, developed by psychologists and researchers."
+  },
+  {
+    "id": "mental-health-online-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "Mental Health Online - Depression Online",
+    "providerType": "program",
+    "url": "https://www.mentalhealthonline.org.au/programs/depression-online",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Online modular depression program based on CBT, developed by psychologists and researchers."
+  },
+  {
+    "id": "mental-health-online-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 3,
+    "matchedTo": "Online therapy",
+    "providerName": "Mental Health Online - Depression Online",
+    "providerType": "program",
+    "url": "https://www.mentalhealthonline.org.au/programs/depression-online",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Online modular depression program based on CBT, developed by psychologists and researchers."
+  },
+  {
+    "id": "moodgym-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "moodgym",
+    "providerType": "platform",
+    "url": "https://www.moodgym.com.au/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Interactive self-help training that teaches CBT skills for coping with depression and anxiety."
+  },
+  {
+    "id": "moodgym-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "moodgym",
+    "providerType": "platform",
+    "url": "https://www.moodgym.com.au/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Interactive self-help training that teaches CBT skills for coping with depression and anxiety."
+  },
+  {
+    "id": "moodgym-bibliotherapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Bibliotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Bibliotherapy",
+    "providerName": "moodgym",
+    "providerType": "platform",
+    "url": "https://www.moodgym.com.au/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Interactive self-help training that teaches CBT skills for coping with depression and anxiety."
+  },
+  {
+    "id": "moodgym-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "moodgym",
+    "providerType": "platform",
+    "url": "https://www.moodgym.com.au/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Interactive self-help training that teaches CBT skills for coping with depression and anxiety."
+  },
+  {
+    "id": "beating-the-blues-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "Beating the Blues",
+    "providerType": "platform",
+    "url": "https://beatingtheblues.co.nz/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Evidence-based online CBT program, including a funded pathway for mild to moderate depression in New Zealand."
+  },
+  {
+    "id": "beating-the-blues-icbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Internet-based cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based cognitive behavior therapy",
+    "providerName": "Beating the Blues",
+    "providerType": "platform",
+    "url": "https://beatingtheblues.co.nz/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Evidence-based online CBT program, including a funded pathway for mild to moderate depression in New Zealand."
+  },
+  {
+    "id": "beating-the-blues-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "Beating the Blues",
+    "providerType": "platform",
+    "url": "https://beatingtheblues.co.nz/",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Evidence-based online CBT program, including a funded pathway for mild to moderate depression in New Zealand."
+  },
+  {
+    "id": "cci-bibliotherapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Bibliotherapy",
+    "matchLevel": 3,
+    "matchedTo": "Bibliotherapy",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "cci-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "Centre for Clinical Interventions (CCI) self-help modules",
+    "providerType": "program",
+    "url": "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself",
+    "regions": [
+      "Oceania",
+      "Global"
+    ],
+    "countries": [
+      "Australia",
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Clinician-developed self-help workbooks, modules, and worksheets that are openly available online."
+  },
+  {
+    "id": "wysa-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 2,
+    "matchedTo": "Standard cognitive & behavioral (CBT)",
+    "providerName": "Wysa",
+    "providerType": "platform",
+    "url": "https://www.wysa.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI mental wellbeing tool using CBT-style and related evidence-based techniques as an adjunct, not a replacement for therapy."
+  },
+  {
+    "id": "wysa-third-wave",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Third-wave cognitive therapies",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Wysa",
+    "providerType": "platform",
+    "url": "https://www.wysa.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI mental wellbeing tool using CBT-style and related evidence-based techniques as an adjunct, not a replacement for therapy."
+  },
+  {
+    "id": "wysa-mindfulness",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based intervention",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Wysa",
+    "providerType": "platform",
+    "url": "https://www.wysa.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI mental wellbeing tool using CBT-style and related evidence-based techniques as an adjunct, not a replacement for therapy."
+  },
+  {
+    "id": "wysa-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 2,
+    "matchedTo": "Digital & remote therapy",
+    "providerName": "Wysa",
+    "providerType": "platform",
+    "url": "https://www.wysa.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI mental wellbeing tool using CBT-style and related evidence-based techniques as an adjunct, not a replacement for therapy."
+  },
+  {
+    "id": "youper-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 2,
+    "matchedTo": "Standard cognitive & behavioral (CBT)",
+    "providerName": "Youper",
+    "providerType": "platform",
+    "url": "https://start.youper.ai/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI wellbeing chatbot for mood tracking, reflection, and science-backed self-help conversations."
+  },
+  {
+    "id": "youper-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 2,
+    "matchedTo": "Self-help & low-intensity",
+    "providerName": "Youper",
+    "providerType": "platform",
+    "url": "https://start.youper.ai/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI wellbeing chatbot for mood tracking, reflection, and science-backed self-help conversations."
+  },
+  {
+    "id": "youper-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 2,
+    "matchedTo": "Digital & remote therapy",
+    "providerName": "Youper",
+    "providerType": "platform",
+    "url": "https://start.youper.ai/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "AI wellbeing chatbot for mood tracking, reflection, and science-backed self-help conversations."
+  },
+  {
+    "id": "headspace-ebb-mindfulness-intervention",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based intervention",
+    "matchLevel": 3,
+    "matchedTo": "Mindfulness-based intervention",
+    "providerName": "Headspace with Ebb",
+    "providerType": "platform",
+    "url": "https://www.headspace.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "Mindfulness app with guided exercises and an AI companion called Ebb in app-store materials."
+  },
+  {
+    "id": "headspace-ebb-mindfulness-therapy",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based therapy",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Headspace with Ebb",
+    "providerType": "platform",
+    "url": "https://www.headspace.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "Mindfulness app with guided exercises and an AI companion called Ebb in app-store materials."
+  },
+  {
+    "id": "headspace-ebb-third-wave",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Third-wave cognitive therapies",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Headspace with Ebb",
+    "providerType": "platform",
+    "url": "https://www.headspace.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "Mindfulness app with guided exercises and an AI companion called Ebb in app-store materials."
+  },
+  {
+    "id": "headspace-ebb-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 2,
+    "matchedTo": "Digital & remote therapy",
+    "providerName": "Headspace with Ebb",
+    "providerType": "platform",
+    "url": "https://www.headspace.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "ai",
+    "notes": "Mindfulness app with guided exercises and an AI companion called Ebb in app-store materials."
+  },
+  {
+    "id": "calm-mindfulness-intervention",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based intervention",
+    "matchLevel": 3,
+    "matchedTo": "Mindfulness-based intervention",
+    "providerName": "Calm",
+    "providerType": "platform",
+    "url": "https://www.calm.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Self-guided mindfulness, meditation, and sleep support app that can be used as a low-intensity support tool."
+  },
+  {
+    "id": "calm-mindfulness-therapy",
+    "level1": "Third-wave & mindfulness family",
+    "level2": "Acceptance & mindfulness approaches",
+    "level3": "Mindfulness-based therapy",
+    "matchLevel": 2,
+    "matchedTo": "Acceptance & mindfulness approaches",
+    "providerName": "Calm",
+    "providerType": "platform",
+    "url": "https://www.calm.com/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Self-guided mindfulness, meditation, and sleep support app that can be used as a low-intensity support tool."
+  },
+  {
+    "id": "intellect-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "Intellect",
+    "providerType": "platform",
+    "url": "https://intellect.co/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Global mental health platform with self-guided CBT programs and a wider coaching and therapy ecosystem."
+  },
+  {
+    "id": "intellect-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "Intellect",
+    "providerType": "platform",
+    "url": "https://intellect.co/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Global mental health platform with self-guided CBT programs and a wider coaching and therapy ecosystem."
+  },
+  {
+    "id": "intellect-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "Intellect",
+    "providerType": "platform",
+    "url": "https://intellect.co/",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "Global"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Global mental health platform with self-guided CBT programs and a wider coaching and therapy ecosystem."
+  },
+  {
+    "id": "sanvello-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Cognitive behavior therapy",
+    "matchLevel": 3,
+    "matchedTo": "Cognitive behavior therapy",
+    "providerName": "Sanvello",
+    "providerType": "platform",
+    "url": "https://sanvello.app.link/",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "App-based self-care with CBT-rooted tools and optional coaching or therapy pathways, often through health plans."
+  },
+  {
+    "id": "sanvello-guided-self-help",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Self-help & low-intensity",
+    "level3": "Guided self-help",
+    "matchLevel": 3,
+    "matchedTo": "Guided self-help",
+    "providerName": "Sanvello",
+    "providerType": "platform",
+    "url": "https://sanvello.app.link/",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "App-based self-care with CBT-rooted tools and optional coaching or therapy pathways, often through health plans."
+  },
+  {
+    "id": "sanvello-online-therapy",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Online therapy",
+    "matchLevel": 3,
+    "matchedTo": "Online therapy",
+    "providerName": "Sanvello",
+    "providerType": "platform",
+    "url": "https://sanvello.app.link/",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "App-based self-care with CBT-rooted tools and optional coaching or therapy pathways, often through health plans."
+  },
+  {
+    "id": "sanvello-internet-treatment",
+    "level1": "Delivery formats & low-intensity interventions",
+    "level2": "Digital & remote therapy",
+    "level3": "Internet-based treatment",
+    "matchLevel": 3,
+    "matchedTo": "Internet-based treatment",
+    "providerName": "Sanvello",
+    "providerType": "platform",
+    "url": "https://sanvello.app.link/",
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "formats": [
+      "online"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "App-based self-care with CBT-rooted tools and optional coaching or therapy pathways, often through health plans."
+  },
+  {
+    "id": "mothers-babies-antenatal-cbt",
+    "level1": "Cognitive & behavioral family",
+    "level2": "Standard cognitive & behavioral (CBT)",
+    "level3": "Antenatal cognitive behavioral therapy",
+    "matchLevel": 2,
+    "matchedTo": "Perinatal & population-specific care",
+    "providerName": "Mothers and Babies Program",
+    "providerType": "program",
+    "url": "https://www.mothersandbabiesprogram.org/",
+    "regions": [
+      "North America",
+      "Global"
+    ],
+    "countries": [
+      "United States",
+      "Global"
+    ],
+    "formats": [
+      "online",
+      "hybrid"
+    ],
+    "deliveryCategory": "web-based",
+    "notes": "Prevention-focused perinatal program that draws on CBT and attachment theory rather than offering a standard general CBT clinic."
+  }
+]

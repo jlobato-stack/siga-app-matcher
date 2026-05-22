@@ -1,0 +1,85 @@
+Starting SIGA matcher...
+Node.js is not installed or not on PATH.
+Press Enter to close...Starting SIGA matcher...
+Node.js is not installed or not on PATH.
+Press Enter to close...Starting SIGA matcher...
+Node.js not found. Starting static demo from dist/.
+::1 - - [21/May/2026 14:06:23] "GET / HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /assets/index-Cj3Cox85.css HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /assets/index-j3G7_Hhe.js HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatment_registry.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatment_base_scores.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatment_subgroup_weights.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatments_column_y_raw.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/questionnaire_enums.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatment_context_adjustments.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/hard_stop_rules.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/scoring_config.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/explanation_templates.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/app_copy.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/display_group_metadata.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/crisis_support_resources.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] code 404, message File not found
+::1 - - [21/May/2026 14:06:23] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [21/May/2026 14:06:23] "GET /data/providers.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/treatment_duration_benchmarks.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:06:23] "GET /data/legal_documents_uk.json HTTP/1.1" 200 -
+::1 - - [21/May/2026 14:26:41] "GET / HTTP/1.1" 304 -
+::1 - - [21/May/2026 14:26:43] "GET / HTTP/1.1" 304 -
+::1 - - [21/May/2026 14:26:44] "GET / HTTP/1.1" 304 -
+Starting SIGA matcher...
+Node.js not found. Starting static demo from dist/.
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 1297, in <module>
+    test(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 1252, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 1295, in server_bind
+    return super().server_bind()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use
+::1 - - [21/May/2026 14:28:54] "GET / HTTP/1.1" 304 -
+::1 - - [21/May/2026 14:28:55] "GET / HTTP/1.1" 304 -
+::1 - - [21/May/2026 14:28:56] "GET / HTTP/1.1" 304 -
+::1 - - [21/May/2026 14:28:57] "GET / HTTP/1.1" 304 -
+Starting SIGA matcher...
+Node.js not found. Starting static demo from dist/.
+::1 - - [22/May/2026 07:16:31] "GET / HTTP/1.1" 304 -
+::1 - - [22/May/2026 07:16:33] "GET /assets/index-Cj3Cox85.css HTTP/1.1" 304 -
+::1 - - [22/May/2026 07:16:33] "GET /assets/index-j3G7_Hhe.js HTTP/1.1" 304 -
+::1 - - [22/May/2026 07:16:33] code 404, message File not found
+::1 - - [22/May/2026 07:16:33] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [22/May/2026 07:16:34] "GET /data/legal_documents_uk.json HTTP/1.1" 304 -
+Starting SIGA matcher...
+Node.js not found. Starting static demo from dist/.
+Serving demo on port 4174.
+::1 - - [22/May/2026 07:21:10] "GET / HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:10] "GET /assets/index-Cj3Cox85.css HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /assets/index-j3G7_Hhe.js HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatment_base_scores.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatments_column_y_raw.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatment_context_adjustments.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatment_subgroup_weights.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/questionnaire_enums.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatment_registry.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/hard_stop_rules.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/scoring_config.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/explanation_templates.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/display_group_metadata.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/crisis_support_resources.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/app_copy.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] code 404, message File not found
+::1 - - [22/May/2026 07:21:11] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [22/May/2026 07:21:11] "GET /data/legal_documents_uk.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/providers.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:21:11] "GET /data/treatment_duration_benchmarks.json HTTP/1.1" 200 -
+::1 - - [22/May/2026 07:28:57] "GET / HTTP/1.1" 304 -

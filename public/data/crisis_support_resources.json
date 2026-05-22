@@ -1,0 +1,130 @@
+{
+  "global": [
+    {
+      "id": "findahelpline",
+      "name": "Findahelpline",
+      "label": "Find a free, verified helpline in your country",
+      "url": "https://findahelpline.com",
+      "cost": "free",
+      "availability": "varies by country",
+      "priority": 1,
+      "notes": [
+        "verified helplines",
+        "supports 175+ countries",
+        "phone, text, and chat options may vary by country"
+      ]
+    }
+  ],
+  "US": [
+    {
+      "id": "988",
+      "name": "988 Suicide & Crisis Lifeline",
+      "label": "Call or text 988",
+      "url": "https://988lifeline.org",
+      "cost": "free",
+      "availability": "24/7",
+      "priority": 1,
+      "notes": [
+        "confidential",
+        "United States and territories",
+        "official crisis support"
+      ]
+    }
+  ],
+  "UK": [
+    {
+      "id": "nhs_urgent",
+      "name": "NHS urgent mental health help",
+      "label": "Get urgent NHS mental health help",
+      "url": "https://www.nhs.uk/every-mind-matters/urgent-support/",
+      "cost": "free",
+      "availability": "24/7 urgent support pathways",
+      "priority": 1,
+      "notes": [
+        "use NHS 111 or urgent mental health support",
+        "emergency care: 999 or A&E",
+        "official NHS support"
+      ]
+    },
+    {
+      "id": "samaritans_uk",
+      "name": "Samaritans",
+      "label": "Call Samaritans: 116 123",
+      "url": "https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+      "cost": "free",
+      "availability": "24/7",
+      "priority": 2,
+      "notes": [
+        "emotional support",
+        "free to contact",
+        "official Samaritans support"
+      ]
+    }
+  ],
+  "IE": [
+    {
+      "id": "samaritans_ie",
+      "name": "Samaritans",
+      "label": "Call Samaritans: 116 123",
+      "url": "https://www.samaritans.org/samaritans-ireland/about/",
+      "cost": "free",
+      "availability": "24/7",
+      "priority": 1,
+      "notes": [
+        "emotional support",
+        "free to contact",
+        "official Samaritans support"
+      ]
+    }
+  ],
+  "countryLabels": {
+    "US": "United States",
+    "UK": "United Kingdom",
+    "IE": "Ireland"
+  },
+  "professionalCareOptions": [
+    {
+      "id": "public_services",
+      "title": "Public / national mental health services",
+      "description": "Use national or public urgent mental health services first where they are available.",
+      "kind": "public",
+      "cost": "free or low cost",
+      "availability": "depends on your local system"
+    },
+    {
+      "id": "primary_care",
+      "title": "Primary care / doctor / GP",
+      "description": "Contact a doctor or GP for urgent same-day mental health support and referral.",
+      "kind": "primary_care",
+      "cost": "varies by health system",
+      "availability": "same day where possible"
+    },
+    {
+      "id": "licensed_specialist",
+      "title": "Licensed therapist or psychiatrist",
+      "description": "Arrange urgent review with a licensed therapist, psychologist, or psychiatrist.",
+      "kind": "licensed_specialist",
+      "cost": "varies",
+      "availability": "depends on local availability"
+    },
+    {
+      "id": "private_urgent",
+      "title": "Private urgent mental health clinic",
+      "description": "Use a private urgent mental health clinic if that is the fastest available option.",
+      "kind": "private_urgent",
+      "cost": "paid / private",
+      "availability": "placeholder for local provider listings"
+    }
+  ],
+  "nextStepsChecklist": [
+    "Contact a crisis line or urgent mental health service now",
+    "Reach out to a trusted person to stay with you or support you",
+    "Go to emergency care if you may act on thoughts of self-harm or feel unsafe",
+    "Return to the app later once immediate support is in place"
+  ],
+  "extensionPoints": {
+    "providerMarketplace": true,
+    "countrySpecificPrivateOptions": true,
+    "locationAwareRouting": true
+  }
+}

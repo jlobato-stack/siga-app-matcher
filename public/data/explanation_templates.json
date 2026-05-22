@@ -1,0 +1,19 @@
+{
+  "explanations": {
+    "default": "Matched to the strongest available support in this dataset for your measured profile.",
+    "perinatal": "Matched to evidence where pregnancy or the postpartum period is part of the measured profile.",
+    "medical_comorbidity": "Matched to evidence where depression is linked with a long-term physical health condition.",
+    "recurrent_course": "Matched to evidence from recurrent or longer-running depression profiles where available.",
+    "activation": "Matched because your profile points toward getting active and rebuilding routines.",
+    "relationship_focused": "Matched because your profile points toward relationship, role, or loneliness-related stress.",
+    "health_condition_coping": "Matched because your profile points toward coping with depression linked to physical health."
+  },
+  "cautions": {
+    "unconfirmed_diagnosis": "Confidence is lower because depression has not been clinically confirmed.",
+    "unknown_diagnosis": "Confidence is lower because the diagnosis details are still unclear.",
+    "high_suicidal_ideation": "Extra clinical support may be important because you reported frequent thoughts of self-harm.",
+    "possible_mania": "A clinician should check whether mood elevation symptoms need a fuller assessment.",
+    "possible_psychosis": "A clinician should review unusual experiences before relying on a treatment match alone.",
+    "many_unknown_answers": "Confidence is lower because several answers were uncertain or left unspecified."
+  }
+}

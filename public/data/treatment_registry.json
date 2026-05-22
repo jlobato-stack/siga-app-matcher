@@ -1,0 +1,418 @@
+[
+  {
+    "rawLabel": "Acceptance and commitment therapy",
+    "cleanedSubtypeId": "acceptance_and_commitment_therapy",
+    "cleanedSubtypeName": "Acceptance and commitment therapy",
+    "displayGroupId": "act",
+    "displayGroupName": "Acceptance and Commitment Therapy (ACT)",
+    "scoreKey": "act"
+  },
+  {
+    "rawLabel": "Acupuncture and counselling",
+    "cleanedSubtypeId": "acupuncture_and_counselling",
+    "cleanedSubtypeName": "Acupuncture and counselling",
+    "displayGroupId": "combined_multi_component",
+    "displayGroupName": "Combined / Multi-Component Interventions",
+    "scoreKey": "combined_multi_component"
+  },
+  {
+    "rawLabel": "Alleviating distressing intrusive memories",
+    "cleanedSubtypeId": "alleviating_distressing_intrusive_memories",
+    "cleanedSubtypeName": "Alleviating distressing intrusive memories",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Antenatal cognitive behavioral therapy",
+    "cleanedSubtypeId": "antenatal_cognitive_behavioral_therapy",
+    "cleanedSubtypeName": "Antenatal cognitive behavioral therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Behavioral activation",
+    "cleanedSubtypeId": "behavioral_activation",
+    "cleanedSubtypeName": "Behavioral activation",
+    "displayGroupId": "behavioral_activation",
+    "displayGroupName": "Behavioral Activation",
+    "scoreKey": "behavioral_activation"
+  },
+  {
+    "rawLabel": "Behavioral activation therapy",
+    "cleanedSubtypeId": "behavioral_activation_therapy",
+    "cleanedSubtypeName": "Behavioral activation therapy",
+    "displayGroupId": "behavioral_activation",
+    "displayGroupName": "Behavioral Activation",
+    "scoreKey": "behavioral_activation"
+  },
+  {
+    "rawLabel": "Behavioral treatment",
+    "cleanedSubtypeId": "behavioral_treatment",
+    "cleanedSubtypeName": "Behavioral treatment",
+    "displayGroupId": "behavioral_activation",
+    "displayGroupName": "Behavioral Activation",
+    "scoreKey": "behavioral_activation"
+  },
+  {
+    "rawLabel": "Bibliotherapy",
+    "cleanedSubtypeId": "bibliotherapy",
+    "cleanedSubtypeName": "Bibliotherapy",
+    "displayGroupId": "psychoeducational_guided_self_help",
+    "displayGroupName": "Psychoeducational or Guided Self-Help Variants",
+    "scoreKey": "psychoeducational_guided_self_help"
+  },
+  {
+    "rawLabel": "Brief culturally adapted cbt",
+    "cleanedSubtypeId": "brief_culturally_adapted_cbt",
+    "cleanedSubtypeName": "Brief culturally adapted cbt",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Cognitive behavior therapy",
+    "cleanedSubtypeId": "cognitive_behavior_therapy",
+    "cleanedSubtypeName": "Cognitive behavior therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Cognitive-behavioral therapy for depression in parkinson’s disease",
+    "cleanedSubtypeId": "cognitive_behavioral_therapy_for_depression_in_parkinsons_disease",
+    "cleanedSubtypeName": "Cognitive-behavioral therapy for depression in parkinson’s disease",
+    "displayGroupId": "cbt_health_tailored",
+    "displayGroupName": "Health-Tailored CBT",
+    "scoreKey": "cbt_health_tailored"
+  },
+  {
+    "rawLabel": "Cognitive therapy",
+    "cleanedSubtypeId": "cognitive_therapy",
+    "cleanedSubtypeName": "Cognitive therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Compassion-based intervention",
+    "cleanedSubtypeId": "compassion_based_intervention",
+    "cleanedSubtypeName": "Compassion-based intervention",
+    "displayGroupId": "other_third_wave",
+    "displayGroupName": "Other Third-Wave Cognitive Therapies",
+    "scoreKey": "other_third_wave"
+  },
+  {
+    "rawLabel": "Comprehensive self-control training",
+    "cleanedSubtypeId": "comprehensive_self_control_training",
+    "cleanedSubtypeName": "Comprehensive self-control training",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Computer-assisted cognitive therapy",
+    "cleanedSubtypeId": "computer_assisted_cognitive_therapy",
+    "cleanedSubtypeName": "Computer-assisted cognitive therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Coping effectiveness training",
+    "cleanedSubtypeId": "coping_effectiveness_training",
+    "cleanedSubtypeName": "Coping effectiveness training",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Counselling",
+    "cleanedSubtypeId": "counselling",
+    "cleanedSubtypeName": "Counselling",
+    "displayGroupId": "supportive_therapy",
+    "displayGroupName": "Supportive Therapy",
+    "scoreKey": "supportive_therapy"
+  },
+  {
+    "rawLabel": "Digital behavioral activation intervention",
+    "cleanedSubtypeId": "digital_behavioral_activation_intervention",
+    "cleanedSubtypeName": "Digital behavioral activation intervention",
+    "displayGroupId": "behavioral_activation",
+    "displayGroupName": "Behavioral Activation",
+    "scoreKey": "behavioral_activation"
+  },
+  {
+    "rawLabel": "Gestalt therapy",
+    "cleanedSubtypeId": "gestalt_therapy",
+    "cleanedSubtypeName": "Gestalt therapy",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Group cognitive behavioural therapy",
+    "cleanedSubtypeId": "group_cognitive_behavioural_therapy",
+    "cleanedSubtypeName": "Group cognitive behavioural therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Group interpersonal psychotherapy",
+    "cleanedSubtypeId": "group_interpersonal_psychotherapy",
+    "cleanedSubtypeName": "Group interpersonal psychotherapy",
+    "displayGroupId": "ipt",
+    "displayGroupName": "Interpersonal Therapy (IPT)",
+    "scoreKey": "ipt"
+  },
+  {
+    "rawLabel": "Group person-based cognitive therapy",
+    "cleanedSubtypeId": "group_person_based_cognitive_therapy",
+    "cleanedSubtypeName": "Group person-based cognitive therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Guided self-help",
+    "cleanedSubtypeId": "guided_self_help",
+    "cleanedSubtypeName": "Guided self-help",
+    "displayGroupId": "psychoeducational_guided_self_help",
+    "displayGroupName": "Psychoeducational or Guided Self-Help Variants",
+    "scoreKey": "psychoeducational_guided_self_help"
+  },
+  {
+    "rawLabel": "Integrative cognitive therapy",
+    "cleanedSubtypeId": "integrative_cognitive_therapy",
+    "cleanedSubtypeName": "Integrative cognitive therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Internet-based behavioral activation",
+    "cleanedSubtypeId": "internet_based_behavioral_activation",
+    "cleanedSubtypeName": "Internet-based behavioral activation",
+    "displayGroupId": "behavioral_activation",
+    "displayGroupName": "Behavioral Activation",
+    "scoreKey": "behavioral_activation"
+  },
+  {
+    "rawLabel": "Internet-based cognitive behavior therapy",
+    "cleanedSubtypeId": "internet_based_cognitive_behavior_therapy",
+    "cleanedSubtypeName": "Internet-based cognitive behavior therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Internet-based problem-solving training",
+    "cleanedSubtypeId": "internet_based_problem_solving_training",
+    "cleanedSubtypeName": "Internet-based problem-solving training",
+    "displayGroupId": "problem_solving",
+    "displayGroupName": "Problem-Solving Therapy",
+    "scoreKey": "problem_solving"
+  },
+  {
+    "rawLabel": "Internet-based treatment",
+    "cleanedSubtypeId": "internet_based_treatment",
+    "cleanedSubtypeName": "Internet-based treatment",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Interpersonal counseling",
+    "cleanedSubtypeId": "interpersonal_counseling",
+    "cleanedSubtypeName": "Interpersonal counseling",
+    "displayGroupId": "ipt",
+    "displayGroupName": "Interpersonal Therapy (IPT)",
+    "scoreKey": "ipt"
+  },
+  {
+    "rawLabel": "Interpersonal psychotherapy",
+    "cleanedSubtypeId": "interpersonal_psychotherapy",
+    "cleanedSubtypeName": "Interpersonal psychotherapy",
+    "displayGroupId": "ipt",
+    "displayGroupName": "Interpersonal Therapy (IPT)",
+    "scoreKey": "ipt"
+  },
+  {
+    "rawLabel": "Interpersonal therapy",
+    "cleanedSubtypeId": "interpersonal_therapy",
+    "cleanedSubtypeName": "Interpersonal therapy",
+    "displayGroupId": "ipt",
+    "displayGroupName": "Interpersonal Therapy (IPT)",
+    "scoreKey": "ipt"
+  },
+  {
+    "rawLabel": "Life review therapy",
+    "cleanedSubtypeId": "life_review_therapy",
+    "cleanedSubtypeName": "Life review therapy",
+    "displayGroupId": "life_review",
+    "displayGroupName": "Life Review Therapy",
+    "scoreKey": "life_review"
+  },
+  {
+    "rawLabel": "Metacognitive therapy",
+    "cleanedSubtypeId": "metacognitive_therapy",
+    "cleanedSubtypeName": "Metacognitive therapy",
+    "displayGroupId": "other_third_wave",
+    "displayGroupName": "Other Third-Wave Cognitive Therapies",
+    "scoreKey": "other_third_wave"
+  },
+  {
+    "rawLabel": "Metacognitive training",
+    "cleanedSubtypeId": "metacognitive_training",
+    "cleanedSubtypeName": "Metacognitive training",
+    "displayGroupId": "other_third_wave",
+    "displayGroupName": "Other Third-Wave Cognitive Therapies",
+    "scoreKey": "other_third_wave"
+  },
+  {
+    "rawLabel": "Mindfulness-based intervention",
+    "cleanedSubtypeId": "mindfulness_based_intervention",
+    "cleanedSubtypeName": "Mindfulness-based intervention",
+    "displayGroupId": "mindfulness_relapse_focused",
+    "displayGroupName": "Mindfulness-Based / Relapse-Focused Therapy",
+    "scoreKey": "mindfulness_relapse_focused"
+  },
+  {
+    "rawLabel": "Mindfulness-based therapy",
+    "cleanedSubtypeId": "mindfulness_based_therapy",
+    "cleanedSubtypeName": "Mindfulness-based therapy",
+    "displayGroupId": "mindfulness_relapse_focused",
+    "displayGroupName": "Mindfulness-Based / Relapse-Focused Therapy",
+    "scoreKey": "mindfulness_relapse_focused"
+  },
+  {
+    "rawLabel": "Morita therapy",
+    "cleanedSubtypeId": "morita_therapy",
+    "cleanedSubtypeName": "Morita therapy",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Mothers and babies course",
+    "cleanedSubtypeId": "mothers_and_babies_course",
+    "cleanedSubtypeName": "Mothers and babies course",
+    "displayGroupId": "combined_multi_component",
+    "displayGroupName": "Combined / Multi-Component Interventions",
+    "scoreKey": "combined_multi_component"
+  },
+  {
+    "rawLabel": "Motivational interviewing",
+    "cleanedSubtypeId": "motivational_interviewing",
+    "cleanedSubtypeName": "Motivational interviewing",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Nondirective supportive therapy",
+    "cleanedSubtypeId": "nondirective_supportive_therapy",
+    "cleanedSubtypeName": "Nondirective supportive therapy",
+    "displayGroupId": "supportive_therapy",
+    "displayGroupName": "Supportive Therapy",
+    "scoreKey": "supportive_therapy"
+  },
+  {
+    "rawLabel": "Online therapy",
+    "cleanedSubtypeId": "online_therapy",
+    "cleanedSubtypeName": "Online therapy",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Peer-delivered cognitive behavioral therapy",
+    "cleanedSubtypeId": "peer_delivered_cognitive_behavioral_therapy",
+    "cleanedSubtypeName": "Peer-delivered cognitive behavioral therapy",
+    "displayGroupId": "cbt",
+    "displayGroupName": "Cognitive Behavioral Therapy (CBT)",
+    "scoreKey": "cbt"
+  },
+  {
+    "rawLabel": "Perinatal dyadic psychotherapy",
+    "cleanedSubtypeId": "perinatal_dyadic_psychotherapy",
+    "cleanedSubtypeName": "Perinatal dyadic psychotherapy",
+    "displayGroupId": "combined_multi_component",
+    "displayGroupName": "Combined / Multi-Component Interventions",
+    "scoreKey": "combined_multi_component"
+  },
+  {
+    "rawLabel": "Problem-solving therapy",
+    "cleanedSubtypeId": "problem_solving_therapy",
+    "cleanedSubtypeName": "Problem-solving therapy",
+    "displayGroupId": "problem_solving",
+    "displayGroupName": "Problem-Solving Therapy",
+    "scoreKey": "problem_solving"
+  },
+  {
+    "rawLabel": "Psychodynamic psychotherapy",
+    "cleanedSubtypeId": "psychodynamic_psychotherapy",
+    "cleanedSubtypeName": "Psychodynamic psychotherapy",
+    "displayGroupId": "psychodynamic",
+    "displayGroupName": "Psychodynamic Therapy",
+    "scoreKey": "psychodynamic"
+  },
+  {
+    "rawLabel": "Psychodynamic therapy",
+    "cleanedSubtypeId": "psychodynamic_therapy",
+    "cleanedSubtypeName": "Psychodynamic therapy",
+    "displayGroupId": "psychodynamic",
+    "displayGroupName": "Psychodynamic Therapy",
+    "scoreKey": "psychodynamic"
+  },
+  {
+    "rawLabel": "Psychotherapy",
+    "cleanedSubtypeId": "psychotherapy",
+    "cleanedSubtypeName": "Psychotherapy",
+    "displayGroupId": "supportive_therapy",
+    "displayGroupName": "Supportive Therapy",
+    "scoreKey": "supportive_therapy"
+  },
+  {
+    "rawLabel": "Psychotherapy for postpartum depression",
+    "cleanedSubtypeId": "psychotherapy_for_postpartum_depression",
+    "cleanedSubtypeName": "Psychotherapy for postpartum depression",
+    "displayGroupId": "combined_multi_component",
+    "displayGroupName": "Combined / Multi-Component Interventions",
+    "scoreKey": "combined_multi_component"
+  },
+  {
+    "rawLabel": "Social problem-solving therapy",
+    "cleanedSubtypeId": "social_problem_solving_therapy",
+    "cleanedSubtypeName": "Social problem-solving therapy",
+    "displayGroupId": "problem_solving",
+    "displayGroupName": "Problem-Solving Therapy",
+    "scoreKey": "problem_solving"
+  },
+  {
+    "rawLabel": "Task-shifting interpersonal counseling",
+    "cleanedSubtypeId": "task_shifting_interpersonal_counseling",
+    "cleanedSubtypeName": "Task-shifting interpersonal counseling",
+    "displayGroupId": "ipt",
+    "displayGroupName": "Interpersonal Therapy (IPT)",
+    "scoreKey": "ipt"
+  },
+  {
+    "rawLabel": "Telephone-based psychotherapy",
+    "cleanedSubtypeId": "telephone_based_psychotherapy",
+    "cleanedSubtypeName": "Telephone-based psychotherapy",
+    "displayGroupId": "other_psychological",
+    "displayGroupName": "Other Psychological Treatments",
+    "scoreKey": "other_psychological"
+  },
+  {
+    "rawLabel": "Third-wave cognitive therapies",
+    "cleanedSubtypeId": "third_wave_cognitive_therapies",
+    "cleanedSubtypeName": "Third-wave cognitive therapies",
+    "displayGroupId": "other_third_wave",
+    "displayGroupName": "Other Third-Wave Cognitive Therapies",
+    "scoreKey": "other_third_wave"
+  }
+]

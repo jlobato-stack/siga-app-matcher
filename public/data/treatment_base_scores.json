@@ -1,0 +1,16 @@
+{
+  "cbt": { "baseEvidence": 72, "baseConfidence": 78, "fragilityPenalty": 0 },
+  "cbt_health_tailored": { "baseEvidence": 69, "baseConfidence": 76, "fragilityPenalty": 0 },
+  "behavioral_activation": { "baseEvidence": 68, "baseConfidence": 74, "fragilityPenalty": 1 },
+  "ipt": { "baseEvidence": 66, "baseConfidence": 72, "fragilityPenalty": 1 },
+  "mindfulness_relapse_focused": { "baseEvidence": 64, "baseConfidence": 70, "fragilityPenalty": 2 },
+  "problem_solving": { "baseEvidence": 63, "baseConfidence": 69, "fragilityPenalty": 1 },
+  "supportive_therapy": { "baseEvidence": 58, "baseConfidence": 63, "fragilityPenalty": 1 },
+  "life_review": { "baseEvidence": 61, "baseConfidence": 68, "fragilityPenalty": 1 },
+  "psychodynamic": { "baseEvidence": 60, "baseConfidence": 65, "fragilityPenalty": 2 },
+  "act": { "baseEvidence": 62, "baseConfidence": 69, "fragilityPenalty": 1 },
+  "other_third_wave": { "baseEvidence": 59, "baseConfidence": 64, "fragilityPenalty": 2 },
+  "combined_multi_component": { "baseEvidence": 65, "baseConfidence": 71, "fragilityPenalty": 1 },
+  "psychoeducational_guided_self_help": { "baseEvidence": 57, "baseConfidence": 66, "fragilityPenalty": 1 },
+  "other_psychological": { "baseEvidence": 55, "baseConfidence": 60, "fragilityPenalty": 2 }
+}

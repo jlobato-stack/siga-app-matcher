@@ -1,0 +1,22 @@
+{
+  "appTitle": "SIGA",
+  "intro": "In a few minutes, we will inform the best-supported treatments based on available evidence for people with a similar profile.",
+  "startButtonLabel": "START NOW",
+  "resumeButtonLabel": "Resume saved progress",
+  "saveAndReturnLabel": "Save and return later",
+  "exitButtonLabel": "Exit",
+  "backButtonLabel": "Back",
+  "nextButtonLabel": "Next",
+  "resultsHeading": "Your best-supported treatment matches",
+  "resultsSubheading": "These are the best-supported treatment matches based on your measured profile.",
+  "resultsNote": "Delivery format and provider options can be refined in later steps.",
+  "deliveryPlaceholder": "Next: refine delivery format",
+  "providerPlaceholder": "Later: browse providers",
+  "crisisIntro": "This app cannot safely continue matching treatments at this stage.",
+  "crisisBestNextStep": "The best next step is to contact a trained professional or crisis service now.",
+  "crisisEmergency": "If you or someone else may be in immediate danger, call your local emergency number now.",
+  "crisisCountryChooserLabel": "Choose your country or nearest option",
+  "crisisProfessionalCareHeading": "Professional care options",
+  "crisisChecklistHeading": "What to do next",
+  "questionnaireSavedNotice": "Progress saved on this device. You can resume from where you left off."
+}

@@ -1,0 +1,118 @@
+{
+  "cbt": {
+    "weight_age": { "18_24": 1, "25_54": 2 },
+    "weight_sourceGroup": { "student": 1, "general": 1 },
+    "weight_diagnosisStatus": { "confirmed_major": 5, "confirmed_depressive_symptoms": 2 },
+    "weight_course": { "first_episode": 2, "recurrent": 3, "chronic_hard_to_recover": 1 }
+  },
+  "cbt_health_tailored": {
+    "weight_sourceGroup": { "medical_comorbidity": 4, "both": 4 },
+    "weight_medicalCondition": {
+      "diabetes": 3,
+      "chronic_pain": 4,
+      "cardiovascular": 3,
+      "cancer": 4,
+      "hiv": 4,
+      "other_medical": 3
+    },
+    "weight_diagnosisStatus": {
+      "confirmed_major": 2,
+      "confirmed_persistent": 2,
+      "confirmed_depressive_symptoms": 1
+    },
+    "weight_course": { "recurrent": 1, "chronic_hard_to_recover": 1 }
+  },
+  "behavioral_activation": {
+    "weight_age": { "18_24": 2, "25_54": 1 },
+    "weight_sourceGroup": { "student": 2, "general": 1 },
+    "weight_diagnosisStatus": {
+      "confirmed_major": 2,
+      "confirmed_depressive_symptoms": 2,
+      "unconfirmed": 1
+    },
+    "weight_course": { "first_episode": 3, "recurrent": 2, "chronic_hard_to_recover": 1 }
+  },
+  "ipt": {
+    "weight_perinatal": { "pregnant": 4, "postpartum": 5 },
+    "weight_sourceGroup": { "student": 1, "general": 1 },
+    "weight_diagnosisStatus": { "confirmed_major": 2, "confirmed_persistent": 1 },
+    "weight_course": { "recurrent": 2, "chronic_hard_to_recover": 1 }
+  },
+  "mindfulness_relapse_focused": {
+    "weight_age": { "25_54": 1, "55_74": 1 },
+    "weight_diagnosisStatus": { "confirmed_major": 2, "confirmed_persistent": 4 },
+    "weight_course": { "recurrent": 4, "chronic_hard_to_recover": 5 }
+  },
+  "problem_solving": {
+    "weight_age": { "18_24": 1, "25_54": 1, "55_74": 1 },
+    "weight_sourceGroup": { "student": 2, "medical_comorbidity": 1, "both": 2, "general": 1 },
+    "weight_medicalCondition": { "diabetes": 1, "chronic_pain": 1, "cardiovascular": 1 },
+    "weight_diagnosisStatus": {
+      "unconfirmed": 1,
+      "confirmed_depressive_symptoms": 2,
+      "confirmed_major": 1
+    },
+    "weight_course": { "first_episode": 2, "recurrent": 1 }
+  },
+  "supportive_therapy": {
+    "weight_age": { "55_74": 1, "75_plus": 2 },
+    "weight_sourceGroup": { "general": 1, "unknown": 1 },
+    "weight_diagnosisStatus": { "unconfirmed": 2, "unknown": 2 },
+    "weight_course": { "first_episode": 1 }
+  },
+  "life_review": {
+    "weight_age": { "55_74": 4, "75_plus": 6 },
+    "weight_diagnosisStatus": { "confirmed_major": 1, "confirmed_persistent": 2 },
+    "weight_course": { "recurrent": 2, "chronic_hard_to_recover": 3 }
+  },
+  "psychodynamic": {
+    "weight_diagnosisStatus": { "confirmed_major": 2, "confirmed_persistent": 3 },
+    "weight_course": { "recurrent": 2, "chronic_hard_to_recover": 4 }
+  },
+  "act": {
+    "weight_sourceGroup": { "medical_comorbidity": 2, "both": 2 },
+    "weight_medicalCondition": {
+      "diabetes": 2,
+      "chronic_pain": 4,
+      "cardiovascular": 2,
+      "cancer": 3,
+      "hiv": 3,
+      "other_medical": 2
+    },
+    "weight_diagnosisStatus": { "confirmed_major": 1, "confirmed_persistent": 2 },
+    "weight_course": { "recurrent": 2, "chronic_hard_to_recover": 2 }
+  },
+  "other_third_wave": {
+    "weight_diagnosisStatus": { "confirmed_major": 1, "confirmed_persistent": 1 },
+    "weight_course": { "recurrent": 1, "chronic_hard_to_recover": 1 }
+  },
+  "combined_multi_component": {
+    "weight_sourceGroup": { "both": 4, "medical_comorbidity": 2 },
+    "weight_medicalCondition": {
+      "diabetes": 1,
+      "chronic_pain": 2,
+      "cardiovascular": 1,
+      "cancer": 2,
+      "hiv": 2,
+      "other_medical": 1
+    },
+    "weight_diagnosisStatus": { "confirmed_major": 2, "confirmed_persistent": 3 },
+    "weight_course": { "recurrent": 3, "chronic_hard_to_recover": 4 }
+  },
+  "psychoeducational_guided_self_help": {
+    "weight_age": { "18_24": 1, "25_54": 1 },
+    "weight_sourceGroup": { "student": 2, "general": 1 },
+    "weight_diagnosisStatus": {
+      "unconfirmed": 3,
+      "unknown": 2,
+      "confirmed_depressive_symptoms": 2,
+      "confirmed_major": 1
+    },
+    "weight_course": { "first_episode": 2, "recurrent": 1 }
+  },
+  "other_psychological": {
+    "weight_sourceGroup": { "general": 1, "unknown": 1 },
+    "weight_diagnosisStatus": { "unknown": 1 },
+    "weight_course": { "first_episode": 1, "recurrent": 1 }
+  }
+}
